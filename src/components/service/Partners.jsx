@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 const Partners = () => {
-  const partnerImg = ["1", "2", "3", "4", "5", "6", "7", "8"];
+  const partnerImg = ["1", "2", "3", "4", "5", "6", "7", "8"]
   return (
     <>
       {partnerImg.map((img, i) => (
@@ -12,7 +12,7 @@ const Partners = () => {
         </li>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default Partners;
+export default Partners

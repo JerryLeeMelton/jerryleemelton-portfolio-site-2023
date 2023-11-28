@@ -1,14 +1,14 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Map from "./Map";
+import React, { useRef } from "react"
+import emailjs from "@emailjs/browser"
+import { toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+import Map from "./Map"
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     emailjs
       .sendForm(
         "service_n4mkhz9",
@@ -26,8 +26,8 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-          });
-          document.getElementById("myForm").reset();
+          })
+          document.getElementById("myForm").reset()
         },
         (error) => {
           toast.error("Ops Message Not Sent!", {
@@ -38,10 +38,10 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-          });
+          })
         }
-      );
-  };
+      )
+  }
 
   return (
     <>
@@ -113,7 +113,7 @@ const Contact = () => {
       </div>
       {/* END COTACT */}
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

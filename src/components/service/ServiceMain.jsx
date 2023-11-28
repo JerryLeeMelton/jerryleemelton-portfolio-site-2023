@@ -1,8 +1,8 @@
-import React from "react";
-import FunFact from "./FunFact";
-import Partners from "./Partners";
-import Pricing from "./Pricing";
-import Services from "./Services";
+import React from "react"
+import FunFact from "./FunFact"
+import Partners from "./Partners"
+import Pricing from "./Pricing"
+import Services from "./Services"
 
 const ServiceMain = () => {
   return (
@@ -75,7 +75,7 @@ const ServiceMain = () => {
 
       {/* /SERVICE */}
     </>
-  );
-};
+  )
+}
 
-export default ServiceMain;
+export default ServiceMain

@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import Modal from "react-modal";
-import Social from "../Social";
+import React, { useState } from "react"
+import Modal from "react-modal"
+import Social from "../Social"
 
-Modal.setAppElement("#root");
+Modal.setAppElement("#root")
 
 const Services = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   function toggleModal(e) {
-    setIsOpen(!isOpen);
-    e.preventDefault();
+    setIsOpen(!isOpen)
+    e.preventDefault()
   }
 
   const serviceContent = [
@@ -55,7 +55,7 @@ const Services = () => {
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
-  ];
+  ]
 
   return (
     <>
@@ -185,7 +185,7 @@ const Services = () => {
       </Modal>
       {/* END MODAL */}
     </>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

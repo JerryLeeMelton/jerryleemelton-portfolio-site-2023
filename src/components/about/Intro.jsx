@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Intro = () => {
   const introContent = {
@@ -21,7 +21,7 @@ const Intro = () => {
         </p>
       </>
     ),
-  };
+  }
 
   return (
     <>
@@ -34,7 +34,7 @@ const Intro = () => {
       </div>
       <div className="about_text">{introContent.text}</div>
     </>
-  );
-};
+  )
+}
 
-export default Intro;
+export default Intro

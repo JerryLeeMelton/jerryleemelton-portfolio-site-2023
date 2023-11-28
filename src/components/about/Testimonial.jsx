@@ -1,7 +1,7 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from "react"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const Testimonial = () => {
   var settings = {
@@ -26,7 +26,7 @@ const Testimonial = () => {
         },
       },
     ],
-  };
+  }
 
   const testimonialContent = [
     {
@@ -53,7 +53,7 @@ const Testimonial = () => {
       name: "Baraka Clinton",
       designation: "English Teacher",
     },
-  ];
+  ]
 
   return (
     <ul className="testimonila-slider-wrapper">
@@ -83,7 +83,7 @@ const Testimonial = () => {
         ))}
       </Slider>
     </ul>
-  );
-};
+  )
+}
 
-export default Testimonial;
+export default Testimonial

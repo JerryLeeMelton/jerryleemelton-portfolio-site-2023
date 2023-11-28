@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Skills = () => {
   const skillsContent = [
@@ -46,7 +46,7 @@ const Skills = () => {
         },
       ],
     },
-  ];
+  ]
   return (
     <>
       {skillsContent.map((item) => (
@@ -80,7 +80,7 @@ const Skills = () => {
         </div>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

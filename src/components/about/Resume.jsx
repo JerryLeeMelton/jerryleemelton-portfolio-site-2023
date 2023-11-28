@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Resume = () => {
   const resumeContent = [
@@ -52,7 +52,7 @@ const Resume = () => {
         },
       ],
     },
-  ];
+  ]
   return (
     <>
       {resumeContent.map((item) => (
@@ -80,7 +80,7 @@ const Resume = () => {
         </div>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default Resume;
+export default Resume

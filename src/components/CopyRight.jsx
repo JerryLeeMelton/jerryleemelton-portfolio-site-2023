@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const CopyRight = () => {
   return (
@@ -14,7 +14,7 @@ const CopyRight = () => {
         </a>
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default CopyRight;
+export default CopyRight

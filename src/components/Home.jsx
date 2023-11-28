@@ -1,5 +1,5 @@
-import React from "react";
-import Social from "./Social";
+import React from "react"
+import Social from "./Social"
 
 const Home = () => {
   return (
@@ -19,8 +19,8 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Jerry Lee Melton</h3>
             <p className="job">
-              Creative Photographer based in Portland, OR and happy to travel all
-              over Europe to capture photos.
+              Creative Photographer based in Portland, OR and happy to travel
+              all over Europe to capture photos.
             </p>
             {/* END JOB */}
             <Social />
@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       {/* END HOME */}
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

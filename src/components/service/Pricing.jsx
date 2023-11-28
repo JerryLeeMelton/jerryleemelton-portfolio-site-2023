@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const Pricing = () => {
   const pricingContent = [
@@ -38,7 +38,7 @@ const Pricing = () => {
       ],
       isPopular: "",
     },
-  ];
+  ]
   return (
     <>
       {pricingContent.map((item) => (
@@ -78,7 +78,7 @@ const Pricing = () => {
         </li>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default Pricing;
+export default Pricing

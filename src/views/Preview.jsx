@@ -1,9 +1,9 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Link } from "react-router-dom";
-import PageTitle from "../components/PageTitle";
+import React from "react"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import { Link } from "react-router-dom"
+import PageTitle from "../components/PageTitle"
 
 const Preview = () => {
   var settings = {
@@ -22,9 +22,9 @@ const Preview = () => {
         },
       },
     ],
-  };
+  }
 
-  document.body.classList.remove("dark");
+  document.body.classList.remove("dark")
   return (
     <>
       <PageTitle title="Preview" />
@@ -77,7 +77,7 @@ const Preview = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Preview;
+export default Preview

@@ -1,13 +1,13 @@
-import React from "react";
-import Modal from "react-modal";
-import Testimonial from "./Testimonial";
-import Intro from "./Intro";
-import KnowledgeInterest from "./KnowledgeInterest";
-import PersonalInfo from "./PersonalInfo";
-import Resume from "./Resume";
-import Skills from "./Skills";
+import React from "react"
+import Modal from "react-modal"
+import Testimonial from "./Testimonial"
+import Intro from "./Intro"
+import KnowledgeInterest from "./KnowledgeInterest"
+import PersonalInfo from "./PersonalInfo"
+import Resume from "./Resume"
+import Skills from "./Skills"
 
-Modal.setAppElement("#root");
+Modal.setAppElement("#root")
 
 const AboutMain = () => {
   return (
@@ -31,7 +31,7 @@ const AboutMain = () => {
           {/* End personal info */}
 
           <div className="tokyo_tm_button" data-position="left">
-          <a href="assets/img/cv.pdf" download>
+            <a href="assets/img/cv.pdf" download>
               <span>Download CV</span>
             </a>
           </div>
@@ -82,7 +82,7 @@ const AboutMain = () => {
 
       {/* /ABOUT */}
     </>
-  );
-};
+  )
+}
 
-export default AboutMain;
+export default AboutMain

@@ -1,5 +1,5 @@
-import React from "react";
-import Social from "./Social";
+import React from "react"
+import Social from "./Social"
 
 const Home = () => {
   return (
@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       {/* END HOME */}
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

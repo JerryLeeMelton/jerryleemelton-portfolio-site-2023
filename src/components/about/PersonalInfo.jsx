@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const PersonalInfo = () => {
   const personalInfoContent = [
@@ -72,7 +72,7 @@ const PersonalInfo = () => {
         },
       ],
     },
-  ];
+  ]
   return (
     <>
       {personalInfoContent.map((item) => (
@@ -90,7 +90,7 @@ const PersonalInfo = () => {
         </div>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default PersonalInfo;
+export default PersonalInfo

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const KnowledgeInterest = () => {
   const knowledgeContent = [
@@ -26,7 +26,7 @@ const KnowledgeInterest = () => {
         "Learn Ecommerce",
       ],
     },
-  ];
+  ]
 
   return (
     <>
@@ -54,7 +54,7 @@ const KnowledgeInterest = () => {
         </div>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default KnowledgeInterest;
+export default KnowledgeInterest

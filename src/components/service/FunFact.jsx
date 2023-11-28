@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const FunFact = () => {
   const funFactContent = [
@@ -17,7 +17,7 @@ const FunFact = () => {
       number: "9K+",
       meta: "Lines of Code",
     },
-  ];
+  ]
   return (
     <>
       {funFactContent.map((item) => (
@@ -29,7 +29,7 @@ const FunFact = () => {
         </li>
       ))}
     </>
-  );
-};
+  )
+}
 
-export default FunFact;
+export default FunFact

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const SocialShare = [
   {
@@ -15,7 +15,7 @@ const SocialShare = [
     iconName: "tik-tok",
     link: "https://www.tiktok.com/",
   },
-];
+]
 const Social = () => {
   return (
     <>
@@ -34,7 +34,7 @@ const Social = () => {
       </ul>
       {/* END SOCIAL */}
     </>
-  );
-};
+  )
+}
 
-export default Social;
+export default Social
