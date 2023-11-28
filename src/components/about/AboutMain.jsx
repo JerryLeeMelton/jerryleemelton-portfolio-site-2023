@@ -17,7 +17,7 @@ const AboutMain = () => {
           <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
-                <span>About</span>
+                {/* <span>About</span> */}
                 <h3>About Me</h3>
               </div>
             </div>

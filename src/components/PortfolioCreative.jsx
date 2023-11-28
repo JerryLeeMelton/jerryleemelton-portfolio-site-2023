@@ -33,7 +33,7 @@ const Portfolio = () => {
             <div className="jlm_title">
               <div className="title_flex">
                 <div className="left">
-                  <span>Portfolio</span>
+                  {/* <span>Portfolio</span> */}
                   <h3>Creative Portfolio</h3>
                 </div>
               </div>

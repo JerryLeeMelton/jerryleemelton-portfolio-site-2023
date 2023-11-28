@@ -50,7 +50,7 @@ const Contact = () => {
           <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Contact</span>
+                {/* <span>Contact</span> */}
                 <h3>Get in Touch</h3>
               </div>
             </div>

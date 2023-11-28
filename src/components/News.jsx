@@ -30,7 +30,7 @@ const News = () => {
           <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
-                <span>News</span>
+                {/* <span>News</span> */}
                 <h3>Latest News</h3>
               </div>
             </div>

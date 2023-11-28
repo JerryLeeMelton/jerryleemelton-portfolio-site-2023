@@ -28,7 +28,7 @@ const HomeMain = () => {
       <PageTitle title="Jerry Lee Melton - Front-End Developer" />
       {/* End page title for seo */}
 
-      <button className="theme-switcher-label" onClick={toggleDarkMode}>
+      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>
             <FaSun />
@@ -38,7 +38,7 @@ const HomeMain = () => {
             <FaMoon />
           </>
         )}
-      </button>
+      </button> */}
 
       <Tabs>
         <TabList>

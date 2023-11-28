@@ -14,7 +14,7 @@ const ServiceMain = () => {
           <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
-                <span>Services</span>
+                {/* <span>Services</span> */}
                 <h3>What I Do</h3>
               </div>
             </div>
