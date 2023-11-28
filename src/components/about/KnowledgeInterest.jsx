@@ -5,14 +5,8 @@ const KnowledgeInterest = () => {
     {
       id: 1,
       colClass: "left",
-      title: "Knowledge",
-      content: [
-        " Bootstrap, Angular",
-        " React, Vue, Laravel",
-        " Stylus, Sass, Less",
-        " Gulp, Webpack, Grunt",
-        " Tweenmax, GSAP",
-      ],
+      title: "Skills",
+      content: ["Javascript, Typescript", "HTML5", "CSS 3, SASS", "React"],
     },
     {
       id: 2,
