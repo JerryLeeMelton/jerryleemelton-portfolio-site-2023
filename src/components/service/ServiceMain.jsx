@@ -33,7 +33,7 @@ const ServiceMain = () => {
 
       <div className="jlm_partners">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="jlm_section_title">
             <h3>Partners</h3>
           </div>
           <div className="partners_inner">
@@ -47,7 +47,7 @@ const ServiceMain = () => {
 
       <div className="jlm_facts">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="jlm_section_title">
             <h3>Fun Facts</h3>
           </div>
           <div className="list">
@@ -61,7 +61,7 @@ const ServiceMain = () => {
 
       <div className="jlm_pricing">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="jlm_section_title">
             <h3>Pricing</h3>
           </div>
           <div className="list">

@@ -26,7 +26,7 @@ const KnowledgeInterest = () => {
     <>
       {knowledgeContent.map((item) => (
         <div className={item.colClass} key={item.id}>
-          <div className="tokyo_section_title">
+          <div className="jlm_section_title">
             <h3>{item.title}</h3>
           </div>
           <div className="jlm_skill_list">

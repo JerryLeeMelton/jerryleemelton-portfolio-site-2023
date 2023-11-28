@@ -70,7 +70,7 @@ const AboutMain = () => {
 
       <div className="jlm_testimonials">
         <div className="container">
-          <div className="tokyo_section_title">
+          <div className="jlm_section_title">
             <h3>Testimonials</h3>
           </div>
           <div className="list">
