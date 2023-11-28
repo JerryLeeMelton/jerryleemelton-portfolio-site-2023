@@ -26,8 +26,8 @@ const NewsRtl = () => {
   return (
     <>
       <div className="container">
-        <div className="tokyo_tm_news">
-          <div className="tokyo_tm_title">
+        <div className="jlm_news">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>أخبار</span>
@@ -62,7 +62,7 @@ const NewsRtl = () => {
                   <h3 className="title" onClick={toggleModalOne}>
                     يُطلق أداة جديدة تتيح استضافة الفيديو المباشرمع هذه
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalOne}>
                       <span>اقرأ أكثر</span>
                     </a>
@@ -80,7 +80,7 @@ const NewsRtl = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news rtl-p">
+                  <div className="jlm_modalbox_news rtl-p">
                     <button className="close-modal" onClick={toggleModalOne}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -213,7 +213,7 @@ const NewsRtl = () => {
                   <h3 className="title" onClick={toggleModalTwo}>
                     أعلنت شركة عن كاميرتين جديدتين كاملتي الإطار بدون أي ضجة
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalTwo}>
                       <span>اقرأ أكثر</span>
                     </a>
@@ -229,7 +229,7 @@ const NewsRtl = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news rtl-p">
+                  <div className="jlm_modalbox_news rtl-p">
                     <button className="close-modal" onClick={toggleModalTwo}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -361,7 +361,7 @@ const NewsRtl = () => {
                   <h3 className="title" onClick={toggleModalThree}>
                     لماذا يجب على كل مصور تصوير فيلم حتى في عام يجب على
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalThree}>
                       <span>اقرأ أكثر</span>
                     </a>
@@ -378,7 +378,7 @@ const NewsRtl = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news rtl-p">
+                  <div className="jlm_modalbox_news rtl-p">
                     <button className="close-modal" onClick={toggleModalThree}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -506,7 +506,7 @@ const NewsRtl = () => {
                   <h3 className="title" onClick={toggleModalFour}>
                     مع هذه كن مبدعًا في القفل مع هذه الصورة الممتعة المشاريع
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalFour}>
                       <span>اقرأ أكثر</span>
                     </a>
@@ -521,7 +521,7 @@ const NewsRtl = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news rtl-p">
+                  <div className="jlm_modalbox_news rtl-p">
                     <button className="close-modal" onClick={toggleModalFour}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>

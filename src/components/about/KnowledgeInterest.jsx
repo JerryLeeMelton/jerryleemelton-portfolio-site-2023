@@ -35,7 +35,7 @@ const KnowledgeInterest = () => {
           <div className="tokyo_section_title">
             <h3>{item.title}</h3>
           </div>
-          <div className="tokyo_tm_skill_list">
+          <div className="jlm_skill_list">
             <ul>
               {item.content.map((val, i) => (
                 <li key={i}>

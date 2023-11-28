@@ -77,7 +77,7 @@ const PersonalInfo = () => {
     <>
       {personalInfoContent.map((item) => (
         <div className={item.colClass} key={item.id}>
-          <div className="tokyo_tm_info">
+          <div className="jlm_info">
             <ul>
               {item?.info?.map((value) => (
                 <li key={value.id}>

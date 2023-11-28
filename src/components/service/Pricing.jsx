@@ -62,7 +62,7 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-            <div className="tokyo_tm_button" data-position="left">
+            <div className="jlm_button" data-position="left">
               <a href="#">
                 <span>Purchase</span>
               </a>

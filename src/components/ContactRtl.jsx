@@ -46,8 +46,8 @@ const ContactRtl = () => {
   return (
     <>
       <div className="contaienr">
-        <div className="tokyo_tm_contact">
-          <div className="tokyo_tm_title">
+        <div className="jlm_contact">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>اتصل</span>
@@ -89,7 +89,7 @@ const ContactRtl = () => {
                   {/* END SUBJECT MESSAGE */}
                 </ul>
               </div>
-              <div className="tokyo_tm_button">
+              <div className="jlm_button">
                 <button type="submit" className="ib-button">
                   أرسل رسالة
                 </button>

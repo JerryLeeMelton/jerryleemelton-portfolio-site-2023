@@ -60,7 +60,7 @@ const Resume = () => {
           <div className="tokyo_section_title">
             <h3>{item.title}</h3>
           </div>
-          <div className="tokyo_tm_resume_list">
+          <div className="jlm_resume_list">
             <ul>
               {item?.resume?.map((value) => (
                 <li key={value.id}>

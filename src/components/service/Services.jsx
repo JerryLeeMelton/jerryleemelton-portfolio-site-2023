@@ -65,7 +65,7 @@ const Services = () => {
             <span className="number">{item.no}</span>
             <h3 className="title">{item.title}</h3>
             <p className="text">{item.text}</p>
-            <div className="tokyo_tm_read_more">
+            <div className="jlm_read_more">
               <a href="#" onClick={toggleModal}>
                 <span>Read More</span>
               </a>
@@ -83,7 +83,7 @@ const Services = () => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        <div className="tokyo_tm_modalbox_news">
+        <div className="jlm_modalbox_news">
           <button className="close-modal" onClick={toggleModal}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>

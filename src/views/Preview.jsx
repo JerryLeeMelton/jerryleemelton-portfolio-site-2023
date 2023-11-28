@@ -29,15 +29,15 @@ const Preview = () => {
     <>
       <PageTitle title="Preview" />
       {/* End page title for seo */}
-      <div className="tokyo_tm_all_wrap">
-        <div className="tokyo_tm_intro">
+      <div className="jlm_all_wrap">
+        <div className="jlm_intro">
           <div className="short_info">
             <img src="assets/img/logo/dark.png" alt="logo" />
             <h3>Creative Personal Portfolio React + RTL Template</h3>
           </div>
           {/* END SHORT INFO */}
 
-          <div className="tokyo_tm_intro_fixed_price">
+          <div className="jlm_intro_fixed_price">
             <span className="anim"></span>
             <span className="anim"></span>
             <span className="anim"></span>

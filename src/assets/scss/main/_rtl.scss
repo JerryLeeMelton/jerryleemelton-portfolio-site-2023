@@ -1,84 +1,84 @@
-.tokyo_tm_all_wrap {
+.jlm_all_wrap {
   .rtl-theme {
     direction: rtl;
-    .tokyo_tm_progressbox .left {
+    .jlm_progressbox .left {
       padding-right: 0;
       padding-left: 50px;
       @media (max-width: 768px) {
         padding-left: 0;
       }
     }
-    .tokyo_tm_info ul li {
+    .jlm_info ul li {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
     }
-    .tokyo_tm_short_info .left {
+    .jlm_short_info .left {
       padding-right: 0;
       padding-left: 50px;
     }
-    .tokyo_tm_info ul li span:first-child {
+    .jlm_info ul li span:first-child {
       margin-right: 0;
       margin-left: 10px;
     }
-    .tokyo_tm_skillbox .left {
+    .jlm_skillbox .left {
       padding-right: 0;
       padding-left: 50px;
     }
 
-    .tokyo_tm_skill_list ul li {
+    .jlm_skill_list ul li {
       padding-left: 0;
       padding-right: 25px;
     }
-    .tokyo_tm_skill_list ul li .svg {
+    .jlm_skill_list ul li .svg {
       left: auto;
       right: 0;
       transform: rotate(-180deg);
     }
-    .tokyo_tm_resume_list ul li {
+    .jlm_resume_list ul li {
       float: right;
       padding-left: 0;
       padding-right: 20px;
     }
-    .tokyo_tm_resume_list ul:before {
+    .jlm_resume_list ul:before {
       left: auto;
       right: 0;
     }
-    .tokyo_tm_resume_list ul li:before {
+    .jlm_resume_list ul li:before {
       left: auto;
       right: -9px;
     }
-    .tokyo_tm_testimonials .details {
+    .jlm_testimonials .details {
       direction: rtl;
     }
-    .tokyo_tm_testimonials .details .info {
+    .jlm_testimonials .details .info {
       padding-left: 0;
       padding-right: 20px;
     }
-    .tokyo_tm_testimonials .list ul li .text:before {
+    .jlm_testimonials .list ul li .text:before {
       left: auto;
       right: 50px;
     }
 
     @media (max-width: 767px) {
-      .tokyo_tm_resume_list ul li .place {
+      .jlm_resume_list ul li .place {
         padding-left: 0;
         padding-right: 20px;
       }
-      .tokyo_tm_resume_list ul li .time {
+      .jlm_resume_list ul li .time {
         padding-right: 0;
         padding-left: 20px;
       }
     }
 
     @media screen and (min-width: 1601px) {
-      .tokyo_tm_all_wrap .rightpart {
+      .jlm_all_wrap .rightpart {
         padding-left: 0;
         padding-right: 450px;
       }
     }
     @media (max-width: 1600px) {
-      .tokyo_tm_section {
+      .jlm_section {
         padding-left: 0;
       }
     }
@@ -108,14 +108,14 @@
         padding-right: 0;
       }
     }
-    .tokyo_tm_home .details {
+    .jlm_home .details {
       margin-left: 0;
       margin-right: 80px;
       @media (max-width: 1040px) {
         margin-right: 0;
       }
     }
-    .tokyo_tm_about .description .left {
+    .jlm_about .description .left {
       padding-right: 0;
       padding-left: 50px;
     }
@@ -123,28 +123,28 @@
       left: 0;
       right: auto;
     }
-    .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:first-child {
+    .jlm_portfolio .portfolio_filter .react-tabs__tab-list li:first-child {
       margin-right: 0px;
     }
     .social li {
       margin: 0 0 0 15px;
     }
-    .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li:last-child {
+    .jlm_portfolio .portfolio_filter .react-tabs__tab-list li:last-child {
       margin-right: 25px;
     }
-    .tokyo_tm_portfolio .portfolio_filter .react-tabs__tab-list li {
+    .jlm_portfolio .portfolio_filter .react-tabs__tab-list li {
       font-weight: 600;
     }
-    .tokyo_tm_news ul li .details .date span:before {
+    .jlm_news ul li .details .date span:before {
       left: 100%;
       right: auto;
     }
-    .tokyo_tm_news ul li .details .date span {
+    .jlm_news ul li .details .date span {
       margin-left: 0;
       margin-right: 11px;
       padding-right: 11px;
     }
-    .tokyo_tm_read_more a:before {
+    .jlm_read_more a:before {
       transform: scaleX(1);
     }
     .leftpart .menu ul li .svg {
@@ -158,7 +158,7 @@
 }
 .rtl-p {
   direction: rtl;
-  &.tokyo_tm_modalbox_news .date span {
+  &.jlm_modalbox_news .date span {
     margin-left: 0;
     margin-right: 11px;
     padding-right: 11px;
@@ -180,7 +180,7 @@
 }
 .text-rtl {
   direction: rtl;
-  &.tokyo_tm_modalbox_about .my_box .left {
+  &.jlm_modalbox_about .my_box .left {
     padding-right: 0;
     padding-left: 50px;
   }

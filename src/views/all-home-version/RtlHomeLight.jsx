@@ -118,7 +118,7 @@ const HomeLight = () => {
         {/* START RIGHT PART CONTENT */}
         <div className="rightpart">
           <div className="rightpart_in">
-            <div className="tokyo_tm_section">
+            <div className="jlm_section">
               <div className="container">
                 <TabPanel>
                   <div data-aos="fade-right" data-aos-duration="1200">

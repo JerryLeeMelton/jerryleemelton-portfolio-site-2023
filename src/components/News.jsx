@@ -26,8 +26,8 @@ const News = () => {
   return (
     <>
       <div className="container">
-        <div className="tokyo_tm_news">
-          <div className="tokyo_tm_title">
+        <div className="jlm_news">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>News</span>
@@ -62,7 +62,7 @@ const News = () => {
                   <h3 className="title" onClick={toggleModalOne}>
                     Format releases a new tool that enables direct video hosting
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalOne}>
                       <span>Read More</span>
                     </a>
@@ -80,7 +80,7 @@ const News = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news">
+                  <div className="jlm_modalbox_news">
                     <button className="close-modal" onClick={toggleModalOne}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -221,7 +221,7 @@ const News = () => {
                   <h3 className="title" onClick={toggleModalTwo}>
                     Sony announced two new full frame cameras with zero fanfare
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalTwo}>
                       <span>Read More</span>
                     </a>
@@ -237,7 +237,7 @@ const News = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news">
+                  <div className="jlm_modalbox_news">
                     <button className="close-modal" onClick={toggleModalTwo}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -376,7 +376,7 @@ const News = () => {
                   <h3 className="title" onClick={toggleModalThree}>
                     Why every photographer should shoot film, even in 2021
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalThree}>
                       <span>Read More</span>
                     </a>
@@ -393,7 +393,7 @@ const News = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news">
+                  <div className="jlm_modalbox_news">
                     <button className="close-modal" onClick={toggleModalThree}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>
@@ -528,7 +528,7 @@ const News = () => {
                   <h3 className="title" onClick={toggleModalFour}>
                     Stay creative in lockdown with these fun photo projects
                   </h3>
-                  <div className="tokyo_tm_read_more">
+                  <div className="jlm_read_more">
                     <a onClick={toggleModalFour}>
                       <span>Read More</span>
                     </a>
@@ -543,7 +543,7 @@ const News = () => {
                   overlayClassName="myoverlay"
                   closeTimeoutMS={500}
                 >
-                  <div className="tokyo_tm_modalbox_news">
+                  <div className="jlm_modalbox_news">
                     <button className="close-modal" onClick={toggleModalFour}>
                       <img src="assets/img/svg/cancel.svg" alt="close icon" />
                     </button>

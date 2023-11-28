@@ -13,8 +13,8 @@ const AboutMain = () => {
   return (
     <>
       <div className="container">
-        <div className="tokyo_tm_about">
-          <div className="tokyo_tm_title">
+        <div className="jlm_about">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>About</span>
@@ -25,12 +25,12 @@ const AboutMain = () => {
           {/* End title */}
 
           <Intro />
-          <div className="tokyo_tm_short_info">
+          <div className="jlm_short_info">
             <PersonalInfo />
           </div>
           {/* End personal info */}
 
-          <div className="tokyo_tm_button" data-position="left">
+          <div className="jlm_button" data-position="left">
             <a href="assets/img/cv.pdf" download>
               <span>Download CV</span>
             </a>
@@ -39,7 +39,7 @@ const AboutMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_progressbox">
+      <div className="jlm_progressbox">
         <div className="container">
           <div className="in">
             <Skills />
@@ -48,27 +48,27 @@ const AboutMain = () => {
         </div>
         {/* End .container */}
       </div>
-      {/* End tokyo_tm_progressbox */}
+      {/* End jlm_progressbox */}
 
-      <div className="tokyo_tm_skillbox">
+      <div className="jlm_skillbox">
         <div className="container">
           <div className="in">
             <KnowledgeInterest />
           </div>
         </div>
       </div>
-      {/* End .tokyo_tm_skillbox */}
+      {/* End .jlm_skillbox */}
 
-      <div className="tokyo_tm_resumebox">
+      <div className="jlm_resumebox">
         <div className="container">
           <div className="in">
             <Resume />
           </div>
         </div>
       </div>
-      {/* End tokyo_tm_resumebox */}
+      {/* End jlm_resumebox */}
 
-      <div className="tokyo_tm_testimonials">
+      <div className="jlm_testimonials">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Testimonials</h3>
@@ -78,7 +78,7 @@ const AboutMain = () => {
           </div>
         </div>
       </div>
-      {/* End tokyo_tm_testimonials */}
+      {/* End jlm_testimonials */}
 
       {/* /ABOUT */}
     </>

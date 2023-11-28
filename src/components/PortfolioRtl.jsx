@@ -24,8 +24,8 @@ const PortfolioRtl = () => {
   return (
     <>
       <Gallery>
-        <div className="tokyo_tm_portfolio">
-          <div className="tokyo_tm_title">
+        <div className="jlm_portfolio">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>ملف</span>
@@ -33,7 +33,7 @@ const PortfolioRtl = () => {
               </div>
             </div>
           </div>
-          {/* END TOKYO_TM_TITLE */}
+          {/* END jlm_TITLE */}
 
           <div className="portfolio_filter">
             <Tabs>
@@ -50,7 +50,7 @@ const PortfolioRtl = () => {
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/5.jpg"
                             alt="Vimeo"
@@ -70,7 +70,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="100"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/2.jpg"
                             alt="Youtube"
@@ -91,7 +91,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="200"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <Item
                             original="assets/img/portfolio/4.jpg"
                             thumbnail="assets/img/portfolio/4.jpg"
@@ -124,7 +124,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="300"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <Item
                             original="assets/img/portfolio/3.jpg"
                             thumbnail="assets/img/portfolio/3.jpg"
@@ -158,7 +158,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="100"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/6.jpg"
                             alt="Details"
@@ -178,7 +178,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="200"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/7.jpg"
                             alt="Details"
@@ -201,7 +201,7 @@ const PortfolioRtl = () => {
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/5.jpg"
                             alt="Vimeo"
@@ -224,7 +224,7 @@ const PortfolioRtl = () => {
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/2.jpg"
                             alt="Youtube"
@@ -247,7 +247,7 @@ const PortfolioRtl = () => {
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <Item
                             original="assets/img/portfolio/4.jpg"
                             thumbnail="assets/img/portfolio/4.jpg"
@@ -280,7 +280,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="100"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <Item
                             original="assets/img/portfolio/3.jpg"
                             thumbnail="assets/img/portfolio/3.jpg"
@@ -316,7 +316,7 @@ const PortfolioRtl = () => {
                   <ul className="portfolio_list">
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/6.jpg"
                             alt="Details"
@@ -336,7 +336,7 @@ const PortfolioRtl = () => {
                       data-aos-delay="100"
                     >
                       <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                        <div className="entry jlm_portfolio_animation_wrap">
                           <img
                             src="assets/img/portfolio/7.jpg"
                             alt="Details"
@@ -388,7 +388,7 @@ const PortfolioRtl = () => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalThree}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
@@ -514,7 +514,7 @@ const PortfolioRtl = () => {
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
           <button className="close-modal" onClick={toggleModalFour}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>

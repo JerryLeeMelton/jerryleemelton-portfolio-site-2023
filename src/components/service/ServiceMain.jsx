@@ -10,8 +10,8 @@ const ServiceMain = () => {
       {/* SERVICE */}
 
       <div className="container">
-        <div className="tokyo_tm_services">
-          <div className="tokyo_tm_title">
+        <div className="jlm_services">
+          <div className="jlm_title">
             <div className="title_flex">
               <div className="left">
                 <span>Services</span>
@@ -19,7 +19,7 @@ const ServiceMain = () => {
               </div>
             </div>
           </div>
-          {/* End tokyo_tm_title */}
+          {/* End jlm_title */}
 
           <div className="list">
             <ul>
@@ -31,7 +31,7 @@ const ServiceMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_partners">
+      <div className="jlm_partners">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Partners</h3>
@@ -45,7 +45,7 @@ const ServiceMain = () => {
       </div>
       {/* End partners */}
 
-      <div className="tokyo_tm_facts">
+      <div className="jlm_facts">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Fun Facts</h3>
@@ -59,7 +59,7 @@ const ServiceMain = () => {
       </div>
       {/* End funfacts */}
 
-      <div className="tokyo_tm_pricing">
+      <div className="jlm_pricing">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Pricing</h3>
