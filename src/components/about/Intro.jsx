@@ -3,21 +3,27 @@ import React from "react"
 const Intro = () => {
   const introContent = {
     image: "assets/img/slider/1.jpg",
-    name: "Adriano Smith",
-    designation: "Web Developer",
+    name: "Jerry Lee Melton",
+    designation: "Front-End Software Developer and Designer",
     text: (
       <>
         <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
+          I'm a web developer and graphic designer currently based in Portland,
+          Oregon. I have a huge passion for creative work as well as tech, so
+          web development has been an incredibly rewarding field to dive into.
+          city.
         </p>
+
         <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
+          I hope to leverage my extensive experience in photography and visual
+          design as I move forward with my career and to continue learning more
+          and more about this wonderful field of work.
+        </p>
+
+        <p>
+          Outside of work, you'll find me playing guitar, buying way too many
+          Magic: The Gathering cards, and trying to find the best vegan food in
+          the
         </p>
       </>
     ),

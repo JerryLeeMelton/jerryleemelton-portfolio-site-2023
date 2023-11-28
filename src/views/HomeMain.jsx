@@ -25,7 +25,7 @@ const HomeMain = () => {
 
   return (
     <>
-      <PageTitle title="Home Regular" />
+      <PageTitle title="Jerry Lee Melton - Front-End Developer" />
       {/* End page title for seo */}
 
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
