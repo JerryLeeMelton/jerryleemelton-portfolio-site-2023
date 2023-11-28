@@ -41,9 +41,7 @@ const AboutMain = () => {
 
       <div className="jlm_progressbox">
         <div className="container">
-          <div className="in">
-            <Skills />
-          </div>
+          <div className="in">{/* <Skills /> */}</div>
           {/* End in */}
         </div>
         {/* End .container */}
@@ -68,7 +66,7 @@ const AboutMain = () => {
       </div>
       {/* End jlm_resumebox */}
 
-      <div className="jlm_testimonials">
+      {/* <div className="jlm_testimonials">
         <div className="container">
           <div className="jlm_section_title">
             <h3>Testimonials</h3>
@@ -77,7 +75,7 @@ const AboutMain = () => {
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End jlm_testimonials */}
 
       {/* /ABOUT */}

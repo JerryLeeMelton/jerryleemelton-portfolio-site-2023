@@ -21,9 +21,9 @@ const Intro = () => {
         </p>
 
         <p>
-          Outside of work, you'll find me playing guitar, buying way too many
-          Magic: The Gathering cards, and trying to find the best vegan food in
-          the
+          Outside of work, you'll find me playing guitar, doting on my two cats,
+          buying way too many Magic: The Gathering cards, and trying to hunt
+          down the best vegan food in the city.
         </p>
       </>
     ),
