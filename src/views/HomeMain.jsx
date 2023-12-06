@@ -12,7 +12,7 @@ import CopyRight from "../components/CopyRight"
 import PageTitle from "../components/PageTitle"
 
 const HomeMain = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true)
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode)

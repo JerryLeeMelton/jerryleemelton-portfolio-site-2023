@@ -34,6 +34,9 @@ const AboutMain = () => {
             <a href="assets/img/cv.pdf" download>
               <span>Download CV</span>
             </a>
+            {/* <a href="assets/img/cv.pdf" download>
+              <span>Contact Me</span>
+            </a> */}
           </div>
         </div>
       </div>
