@@ -152,9 +152,9 @@ const HomeMain = () => {
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <News />
-              </TabPanel>
+              </TabPanel> */}
               {/* END NEWS MENU TAB CONTENT */}
 
               <TabPanel>
