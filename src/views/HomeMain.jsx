@@ -86,14 +86,14 @@ const HomeMain = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">News</span>
-                  </Tab>
+                  </Tab> */}
                   <Tab>
                     <img
                       className="svg"

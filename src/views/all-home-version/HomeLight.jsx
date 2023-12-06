@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import { FaMoon, FaSun } from "react-icons/fa"
+// import { FaMoon, FaSun } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import Home from "../../components/Home"
 import About from "../../components/about/AboutMain"
@@ -28,7 +28,7 @@ const HomeLight = () => {
       <PageTitle title="Home Regular" />
       {/* End page title for seo */}
 
-      <button className="theme-switcher-label" onClick={toggleDarkMode}>
+      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>
             <FaSun />
@@ -38,7 +38,7 @@ const HomeLight = () => {
             <FaMoon />
           </>
         )}
-      </button>
+      </button> */}
 
       <Tabs>
         <TabList>
