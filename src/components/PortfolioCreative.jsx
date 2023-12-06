@@ -42,13 +42,13 @@ const Portfolio = () => {
 
             <div className="portfolio_filter">
               <Tabs>
-                <TabList>
+                {/* <TabList>
                   <Tab>All</Tab>
                   <Tab>Vimeo</Tab>
                   <Tab>Youtube</Tab>
                   <Tab>Photography</Tab>
                   <Tab>Details</Tab>
-                </TabList>
+                </TabList> */}
                 {/* END TABLIST */}
                 <div className="list_wrapper">
                   <TabPanel>
