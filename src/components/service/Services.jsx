@@ -16,42 +16,42 @@ const Services = () => {
     {
       id: 1,
       no: "01",
-      title: "Web Design",
+      title: "Web Design & Development",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 2,
       no: "02",
-      title: "Content Writing",
+      title: "Graphic Design",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 3,
       no: "03",
-      title: "Brand Identity",
+      title: "Photography & Photo Editing",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 4,
       no: "04",
-      title: "Live Chat",
+      title: "Audio Editing & Music Production",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 5,
       no: "05",
-      title: "After Effects",
+      title: "Content Writing",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 6,
       no: "06",
-      title: "Mobile App",
+      title: "Video Editing",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
