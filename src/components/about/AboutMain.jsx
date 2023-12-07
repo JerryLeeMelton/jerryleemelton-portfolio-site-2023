@@ -25,9 +25,9 @@ const AboutMain = () => {
           {/* End title */}
 
           <Intro />
-          <div className="jlm_short_info">
+          {/* <div className="jlm_short_info">
             <PersonalInfo />
-          </div>
+          </div> */}
           {/* End personal info */}
 
           <div className="jlm_button" data-position="left">
@@ -42,23 +42,14 @@ const AboutMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="jlm_progressbox">
+      {/* <div className="jlm_progressbox">
         <div className="container">
-          <div className="in">{/* <Skills /> */}</div>
-          {/* End in */}
-        </div>
-        {/* End .container */}
-      </div>
+          <div className="in"><Skills /></div> */}
+      {/* End in */}
+      {/* </div> */}
+      {/* End .container */}
+      {/* </div> */}
       {/* End jlm_progressbox */}
-
-      <div className="jlm_skillbox">
-        <div className="container">
-          <div className="in">
-            <KnowledgeInterest />
-          </div>
-        </div>
-      </div>
-      {/* End .jlm_skillbox */}
 
       <div className="jlm_resumebox">
         <div className="container">
@@ -68,6 +59,15 @@ const AboutMain = () => {
         </div>
       </div>
       {/* End jlm_resumebox */}
+
+      <div className="jlm_skillbox">
+        <div className="container">
+          <div className="in">
+            <KnowledgeInterest />
+          </div>
+        </div>
+      </div>
+      {/* End .jlm_skillbox */}
 
       {/* <div className="jlm_testimonials">
         <div className="container">
