@@ -9,7 +9,6 @@ const Services = () => {
   const [activeModal, setActiveModal] = useState(null)
 
   function toggleModal(e) {
-    console.log(e)
     setIsOpen(!isOpen)
     e.preventDefault()
   }
@@ -221,12 +220,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #1</h3>
               </div>
               {/* END DETAILS */}
@@ -330,12 +324,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #2</h3>
               </div>
               {/* END DETAILS */}
@@ -439,12 +428,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #3</h3>
               </div>
               {/* END DETAILS */}
@@ -548,12 +532,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #4</h3>
               </div>
               {/* END DETAILS */}
@@ -657,12 +636,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #5</h3>
               </div>
               {/* END DETAILS */}
@@ -766,12 +740,7 @@ const Services = () => {
               </div>
               {/* END IMAGE */}
               <div className="details">
-                <div className="extra">
-                  <p className="date">
-                    By <a href="#">Alex Watson</a>
-                    <span>05 April 2021</span>
-                  </p>
-                </div>
+                <div className="extra"></div>
                 <h3 className="title">TEST MODAL #6</h3>
               </div>
               {/* END DETAILS */}
