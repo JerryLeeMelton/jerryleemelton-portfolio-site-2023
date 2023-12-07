@@ -49,208 +49,148 @@ const Portfolio = () => {
                 <div className="list_wrapper">
                   <TabPanel>
                     <ul className="portfolio_list">
+                      {/* START PORTFOLIO PIECE 1 ==========================================================*/}
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
                               src="assets/img/portfolio/5.jpg"
-                              alt="Vimeo"
+                              alt="Polygon AI UI"
                               data-tip
-                              data-for="vimeo"
+                              data-for="polygon-ai-ui"
                               onClick={() => setOpen2(true)}
                             />
                             <ReactTooltip
-                              id="vimeo"
+                              id="polygon-ai-ui"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Teresa Butler</h5>
-                                <span>Vimeo</span>
+                                <h5>Polygon AI User Interface</h5>
+                                {/* <span>Vimeo</span> */}
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
-                      {/* END VIMEO */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
+                      {/* END PORTFOLIO PIECE 1 ==========================================================*/}
+
+                      {/* START PORTFOLIO PIECE 2 ==========================================================*/}
+                      <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
-                              alt="Youtube"
+                              src="assets/img/portfolio/5.jpg"
+                              alt="Polygon AI UI"
                               data-tip
-                              data-for="youtube"
-                              onClick={() => setOpen(true)}
+                              data-for="polygon-ai-logo"
+                              onClick={() => setOpen2(true)}
                             />
                             <ReactTooltip
-                              id="youtube"
+                              id="polygon-ai-logo"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ashely Flores</h5>
-                                <span>Youtube</span>
+                                <h5>Polygon AI Logo Design</h5>
+                                {/* <span>Vimeo</span> */}
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
-                      {/* END YOUTUBE */}
+                      {/* END PORTFOLIO PIECE 2 ==========================================================*/}
 
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="200"
-                      >
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/4.jpg"
-                              thumbnail="assets/img/portfolio/4.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/4.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Derek Smith</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="300"
-                      >
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/3.jpg"
-                              thumbnail="assets/img/portfolio/3.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/3.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END SHOT */}
-
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
+                      {/* START PORTFOLIO PIECE 3 ==========================================================*/}
+                      <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/6.jpg"
-                              alt="Details"
+                              src="assets/img/portfolio/5.jpg"
+                              alt="Crypto Spotter Web Site"
                               data-tip
-                              data-for="detail"
-                              onClick={toggleModalThree}
+                              data-for="crypto-spotter-site"
+                              onClick={() => setOpen2(true)}
                             />
-
                             <ReactTooltip
-                              id="detail"
+                              id="crypto-spotter-site"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Selena Gomez</h5>
-                                <span>Details</span>
+                                <h5>Crypto Spotter Web Site</h5>
+                                {/* <span>Vimeo</span> */}
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="200"
-                      >
+                      {/* END PORTFOLIO PIECE 3 ==========================================================*/}
+
+                      {/* START PORTFOLIO PIECE 4 ==========================================================*/}
+                      <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/7.jpg"
-                              alt="Details"
+                              src="assets/img/portfolio/5.jpg"
+                              alt="Jerry Lee Melton - Photography Portoflio Website"
                               data-tip
-                              data-for="detail2"
-                              onClick={toggleModalFour}
+                              data-for="jlm-photo-site"
+                              onClick={() => setOpen2(true)}
                             />
-
                             <ReactTooltip
-                              id="detail2"
+                              id="jlm-photo-site"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ave Simone</h5>
-                                <span>Details</span>
+                                <h5>
+                                  Jerry Lee Melton - Photography Portoflio
+                                  Website
+                                </h5>
+                                {/* <span>Vimeo</span> */}
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
-                      {/* END DETAILS */}
+                      {/* END PORTFOLIO PIECE 4 ==========================================================*/}
+
+                      {/* START PORTFOLIO PIECE 5 ==========================================================*/}
+                      <li data-aos="fade-right" data-aos-duration="1200">
+                        <div className="inner">
+                          <div className="entry jlm_portfolio_animation_wrap">
+                            <img
+                              src="assets/img/portfolio/5.jpg"
+                              alt="Symon Sez Web Game"
+                              data-tip
+                              data-for="symon-sez-game"
+                              onClick={() => setOpen2(true)}
+                            />
+                            <ReactTooltip
+                              id="symon-sez-game"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Symon Sez Web Game</h5>
+                                {/* <span>Vimeo</span> */}
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                      {/* END PORTFOLIO PIECE 5 ==========================================================*/}
                     </ul>
                     {/* END PORTFOLIO LIST */}
                   </TabPanel>
