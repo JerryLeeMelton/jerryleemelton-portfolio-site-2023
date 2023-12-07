@@ -7,6 +7,13 @@ import Modal from "react-modal"
 import Social from "./Social"
 
 const Portfolio = () => {
+  // for popup video for youtube
+  const [isOpen, setOpen] = useState(false)
+
+  // for modal details
+  const [open3, setIsOpen3] = useState(false)
+  const [open4, setIsOpen4] = useState(false)
+
   const [isOpen1, setOpen1] = useState(false)
   const [isOpen2, setOpen2] = useState(false)
   const [isOpen3, setOpen3] = useState(false)
@@ -69,6 +76,7 @@ const Portfolio = () => {
                 <div className="list_wrapper">
                   <TabPanel>
                     <ul className="portfolio_list">
+                      {/* ========================================================================================= */}
                       {/* START PORTFOLIO PIECE 1 */}
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
@@ -96,123 +104,6 @@ const Portfolio = () => {
                         </div>
                       </li>
                       {/* END PORTFOLIO PIECE 1 */}
-                      {/* START PORTFOLIO PIECE 2 */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/2.jpg"
-                              alt="Polygon AI Logo"
-                              data-tip
-                              data-for="youtube"
-                              onClick={() => setOpen2(true)}
-                            />
-                            <ReactTooltip
-                              id="polygon-logo"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Polygon AI Logo</h5>
-                                {/* <span>Youtube</span> */}
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END PORTFOLIO PIECE 2 ==================================================== */}
-
-                      {/* START PORTFOLIO PIECE 3 */}
-                      <li data-aos="fade-right" data-aos-duration="1200">
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Crypto Spotter"
-                              data-tip
-                              data-for="vimeo"
-                              onClick={() => setOpen3(true)}
-                            />
-                            <ReactTooltip
-                              id="crypto-spotter-site"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Crypto Spotter Web Page</h5>
-                                {/* <span>Vimeo</span> */}
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END PORTFOLIO PIECE 3 */}
-
-                      {/* START PORTFOLIO PIECE 4 */}
-                      <li data-aos="fade-right" data-aos-duration="1200">
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Jerry Lee Melton - Photo Portfolio Website"
-                              data-tip
-                              data-for="vimeo"
-                              onClick={() => setOpen4(true)}
-                            />
-                            <ReactTooltip
-                              id="jlm-photo-portfolio"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>
-                                  Jerry Lee Melton - Photo Portfolio Website
-                                </h5>
-                                {/* <span>Vimeo</span> */}
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END PORTFOLIO PIECE 4 */}
-
-                      {/* START PORTFOLIO PIECE 5 */}
-                      <li data-aos="fade-right" data-aos-duration="1200">
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Polygon AI User Interface"
-                              data-tip
-                              data-for="vimeo"
-                              onClick={() => setOpen5(true)}
-                            />
-                            <ReactTooltip
-                              id="polygon-ui"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Polygon AI User Interface</h5>
-                                {/* <span>Vimeo</span> */}
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END PORTFOLIO PIECE 5 */}
                     </ul>
                     {/* END PORTFOLIO LIST */}
                   </TabPanel>
@@ -261,7 +152,7 @@ const Portfolio = () => {
                               alt="Youtube"
                               data-tip
                               data-for="youtube"
-                              onClick={() => setOpen1(true)}
+                              onClick={() => setOpen(true)}
                             />
                             <ReactTooltip
                               id="youtube"
@@ -379,7 +270,7 @@ const Portfolio = () => {
                               alt="Details"
                               data-tip
                               data-for="detail"
-                              // onClick={toggleModalThree}
+                              onClick={toggleModalThree}
                             />
 
                             <ReactTooltip
@@ -410,7 +301,7 @@ const Portfolio = () => {
                               alt="Details"
                               data-tip
                               data-for="detail2"
-                              // onClick={toggleModalFour}
+                              onClick={toggleModalFour}
                             />
 
                             <ReactTooltip
@@ -441,38 +332,34 @@ const Portfolio = () => {
         </div>
       </Gallery>
       {/* popup vidoe for youtube modal activation */}
-      {/* <Modal
-        isOpen={isOpen1}
-        onRequestClose={() => setOpen1(false)}
-        contentLabel="My dialog"
-        className="mymodal"
-        overlayClassName="myoverlay"
-        closeTimeoutMS={500}
-      ></Modal> */}
+      <ModalVideo
+        channel="youtube"
+        autoplay
+        isOpen={isOpen}
+        videoId="1gyTUHP6ne8"
+        onClose={() => setOpen(false)}
+      />
 
       {/* popup vidoe for vimeo modal activation */}
-      {/* <ModalVideo
+      <ModalVideo
         channel="vimeo"
         autoplay
         isOpen={isOpen2}
         videoId="100171151"
         onClose={() => setOpen2(false)}
-      /> */}
+      />
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen3}
-        // onRequestClose={toggleModalThree}
+        onRequestClose={toggleModalThree}
         contentLabel="My dialog"
         className="mymodal"
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
         <div className="jlm_modalbox_news portfolio_tm_modalbox">
-          <button
-            className="close-modal"
-            // onClick={toggleModalThree}
-          >
+          <button className="close-modal" onClick={toggleModalThree}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
@@ -591,17 +478,14 @@ const Portfolio = () => {
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
         isOpen={isOpen4}
-        // onRequestClose={toggleModalFour}
+        onRequestClose={toggleModalFour}
         contentLabel="My dialog"
         className="mymodal"
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
         <div className="jlm_modalbox_news portfolio_tm_modalbox">
-          <button
-            className="close-modal"
-            // onClick={toggleModalFour}
-          >
+          <button className="close-modal" onClick={toggleModalFour}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
@@ -719,16 +603,15 @@ const Portfolio = () => {
 
       {/* START PORTFOLIO DETAIL MODAL 1 ============================================================================ */}
       <Modal
-        isOpen={isOpen1}
-        onRequestClose={toggleModalOne}
-        onClose={toggleModalOne}
+        isOpen={isOpen4}
+        onRequestClose={toggleModalFour}
         contentLabel="My dialog"
         className="mymodal"
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
         <div className="jlm_modalbox_news portfolio_tm_modalbox">
-          <button className="close-modal" onClick={toggleModalOne}>
+          <button className="close-modal" onClick={toggleModalFour}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
@@ -745,7 +628,7 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Polygon AI User Interface</h3>
+                <h3>Ave Simone</h3>
                 <span>Details</span>
               </div>
               {/* END portfolio_main_title */}
