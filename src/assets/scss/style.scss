@@ -12,3 +12,7 @@
 // PREVIEW SCSS
 @import "preview/preview";
 @import "node_modules/react-modal-video/scss/modal-video.scss";
+
+.portfolio_filter .react-tabs__tab-list {
+  display: none;
+}
