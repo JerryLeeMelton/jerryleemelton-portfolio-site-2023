@@ -7,22 +7,30 @@ import Modal from "react-modal"
 import Social from "./Social"
 
 const Portfolio = () => {
-  // for popup video for youtube
-  const [isOpen, setOpen] = useState(false)
-
-  // popup video for vimeo
+  const [isOpen1, setOpen1] = useState(false)
   const [isOpen2, setOpen2] = useState(false)
+  const [isOpen3, setOpen3] = useState(false)
+  const [isOpen4, setOpen4] = useState(false)
+  const [isOpen5, setOpen5] = useState(false)
 
-  // for modal details
-  const [isOpen3, setIsOpen3] = useState(false)
-  const [isOpen4, setIsOpen4] = useState(false)
-
-  // for modal details method
-  function toggleModalThree() {
-    setIsOpen3(!isOpen3)
+  const toggleModalOne = () => {
+    setOpen1(!isOpen1)
   }
-  function toggleModalFour() {
-    setIsOpen4(!isOpen4)
+
+  const toggleModalTwo = () => {
+    setOpen2(!isOpen2)
+  }
+
+  const toggleModalThree = () => {
+    setOpen3(!isOpen3)
+  }
+
+  const toggleModalFour = () => {
+    setOpen4(!isOpen4)
+  }
+
+  const toggleModalFive = () => {
+    setOpen5(!isOpen5)
   }
 
   return (
@@ -58,7 +66,7 @@ const Portfolio = () => {
                               alt="Polygon AI UI"
                               data-tip
                               data-for="polygon-ai-ui"
-                              onClick={() => setOpen2(true)}
+                              onClick={() => setOpen1(true)}
                             />
                             <ReactTooltip
                               id="polygon-ai-ui"
@@ -139,7 +147,7 @@ const Portfolio = () => {
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
                               src="assets/img/portfolio/5.jpg"
-                              alt="Jerry Lee Melton - Photography Portoflio Website"
+                              alt="Photography Portoflio Website"
                               data-tip
                               data-for="jlm-photo-site"
                               onClick={() => setOpen2(true)}
@@ -152,10 +160,7 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>
-                                  Jerry Lee Melton - Photography Portoflio
-                                  Website
-                                </h5>
+                                <h5>Photography Portoflio Website</h5>
                                 {/* <span>Vimeo</span> */}
                               </div>
                             </ReactTooltip>
@@ -207,15 +212,15 @@ const Portfolio = () => {
 
       {/* START PORTFOLIO DETAIL MODAL 1 ============================================================================ */}
       <Modal
-        isOpen={isOpen4}
-        onRequestClose={toggleModalFour}
+        isOpen={isOpen1}
+        onRequestClose={toggleModalOne}
         contentLabel="My dialog"
         className="mymodal"
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
         <div className="jlm_modalbox_news portfolio_tm_modalbox">
-          <button className="close-modal" onClick={toggleModalFour}>
+          <button className="close-modal" onClick={toggleModalOne}>
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
@@ -232,8 +237,8 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Details</span>
+                <h3>Polygon AI User Interface</h3>
+                {/* <span>Details</span> */}
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -257,20 +262,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Rewire AI</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
-                    </li>
-                    <li>
-                      <span className="first">Share</span>
-                      <Social />
-                      {/* END SOCIAL SHARE */}
+                      <span>2022 - Present</span>
                     </li>
                   </ul>
                 </div>
@@ -329,7 +325,490 @@ const Portfolio = () => {
         </div>
         {/* END MODALBOX NEWS */}
       </Modal>
-      {/* END MODAL FOR PORTFOLIO DETAILS */}
+      {/* END MODAL FOR PORTFOLIO DETAIL 1 ======================================================================== */}
+
+      {/* START PORTFOLIO DETAIL MODAL 2 ============================================================================ */}
+      <Modal
+        isOpen={isOpen2}
+        onRequestClose={toggleModalTwo}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalTwo}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>Polygon AI Logo Design</h3>
+                <span>Details</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    We live in a world where we need to move quickly and iterate
+                    on our ideas as flexibly as possible. Building mockups
+                    strikes the ideal balance between true-life representation
+                    of the end product and ease of modification.
+                  </p>
+                  <p>
+                    Mockups are useful both for the creative phase of the
+                    project - for instance when you're trying to figure out your
+                    user flows or the proper visual hierarchy - and the
+                    production phase when they will represent the target
+                    product. Making mockups a part of your creative and
+                    development process allows you to quickly and easily ideate.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Client</span>
+                      <span>Alvaro Morata</span>
+                    </li>
+                    <li>
+                      <span className="first">Category</span>
+                      <span>Details</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>March 07, 2021</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAIL 2 ======================================================================== */}
+
+      {/* START PORTFOLIO DETAIL MODAL 3 ============================================================================ */}
+      <Modal
+        isOpen={isOpen3}
+        onRequestClose={toggleModalThree}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalThree}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>Crypto Spotter Web Site</h3>
+                <span>Details</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    We live in a world where we need to move quickly and iterate
+                    on our ideas as flexibly as possible. Building mockups
+                    strikes the ideal balance between true-life representation
+                    of the end product and ease of modification.
+                  </p>
+                  <p>
+                    Mockups are useful both for the creative phase of the
+                    project - for instance when you're trying to figure out your
+                    user flows or the proper visual hierarchy - and the
+                    production phase when they will represent the target
+                    product. Making mockups a part of your creative and
+                    development process allows you to quickly and easily ideate.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Client</span>
+                      <span>Alvaro Morata</span>
+                    </li>
+                    <li>
+                      <span className="first">Category</span>
+                      <span>Details</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>March 07, 2021</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAIL 3 ======================================================================== */}
+
+      {/* START PORTFOLIO DETAIL MODAL 4 ============================================================================ */}
+      <Modal
+        isOpen={isOpen4}
+        onRequestClose={toggleModalFour}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalFour}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>Photography Portfolio Website</h3>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    We live in a world where we need to move quickly and iterate
+                    on our ideas as flexibly as possible. Building mockups
+                    strikes the ideal balance between true-life representation
+                    of the end product and ease of modification.
+                  </p>
+                  <p>
+                    Mockups are useful both for the creative phase of the
+                    project - for instance when you're trying to figure out your
+                    user flows or the proper visual hierarchy - and the
+                    production phase when they will represent the target
+                    product. Making mockups a part of your creative and
+                    development process allows you to quickly and easily ideate.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Client</span>
+                      <span>Alvaro Morata</span>
+                    </li>
+                    <li>
+                      <span className="first">Category</span>
+                      <span>Details</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>March 07, 2021</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAIL 4 ======================================================================== */}
+
+      {/* START PORTFOLIO DETAIL MODAL 5 ============================================================================ */}
+      <Modal
+        isOpen={isOpen5}
+        onRequestClose={toggleModalFive}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="jlm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalFive}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>Polygon AI User Interface</h3>
+                <span>Details</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    We live in a world where we need to move quickly and iterate
+                    on our ideas as flexibly as possible. Building mockups
+                    strikes the ideal balance between true-life representation
+                    of the end product and ease of modification.
+                  </p>
+                  <p>
+                    Mockups are useful both for the creative phase of the
+                    project - for instance when you're trying to figure out your
+                    user flows or the proper visual hierarchy - and the
+                    production phase when they will represent the target
+                    product. Making mockups a part of your creative and
+                    development process allows you to quickly and easily ideate.
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Client</span>
+                      <span>Alvaro Morata</span>
+                    </li>
+                    <li>
+                      <span className="first">Category</span>
+                      <span>Details</span>
+                    </li>
+                    <li>
+                      <span className="first">Date</span>
+                      <span>March 07, 2021</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+      {/* END MODAL FOR PORTFOLIO DETAIL 5 ======================================================================== */}
     </>
   )
 }
