@@ -258,8 +258,15 @@ const Portfolio = () => {
                     development process allows you to quickly and easily ideate.
                   </p>
                   <div className="jlm_button">
-                    <button className="ib-button">Launch Site</button>
-                    <button className="ib-button">View Github Repo</button>
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open("https://rewire.ai/", "_blank")
+                      }}
+                    >
+                      Visit Rewire AI
+                    </button>
                   </div>
                 </div>
                 <div className="detailbox">
@@ -378,6 +385,17 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <div className="jlm_button">
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open("https://rewire.ai/", "_blank")
+                      }}
+                    >
+                      Visit Rewire AI
+                    </button>
+                  </div>
                 </div>
                 <div className="detailbox">
                   <ul>
@@ -495,6 +513,33 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <div className="jlm_button">
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://crypto.jerryleemelton.com/",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Launch Site
+                    </button>
+                    <button
+                      style={{ marginLeft: "1rem" }}
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://github.com/JerryLeeMelton/CryptoSpotter-CryptoDashboard",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Github Repo
+                    </button>
+                  </div>
                 </div>
                 <div className="detailbox">
                   <ul>
@@ -611,6 +656,33 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <div className="jlm_button">
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://photography.jerryleemelton.com/",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Launch Site
+                    </button>
+                    <button
+                      style={{ marginLeft: "1rem" }}
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://github.com/JerryLeeMelton/JerryLeeMelton-PhotographyPortfolio",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Github Repo
+                    </button>
+                  </div>
                 </div>
                 <div className="detailbox">
                   <ul>
@@ -724,6 +796,33 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <div className="jlm_button">
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://symon.jerryleemelton.com/",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Launch Site
+                    </button>
+                    <button
+                      style={{ marginLeft: "1rem" }}
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://github.com/JerryLeeMelton/symon-sez-game",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Github Repo
+                    </button>
+                  </div>
                 </div>
                 <div className="detailbox">
                   <ul>
