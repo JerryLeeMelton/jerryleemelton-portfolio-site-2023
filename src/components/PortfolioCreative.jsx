@@ -62,7 +62,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src="assets/img/portfolio/polygonui_thumb.webp"
                               alt="Polygon AI UI"
                               data-tip
                               data-for="polygon-ai-ui"
@@ -90,7 +90,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src="assets/img/portfolio/polygon_logo_thumb.webp"
                               alt="Polygon AI UI"
                               data-tip
                               data-for="polygon-ai-logo"
@@ -118,7 +118,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src="assets/img/portfolio/cryptospotter.webp"
                               alt="Crypto Spotter Web Site"
                               data-tip
                               data-for="crypto-spotter-site"
@@ -146,8 +146,8 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
-                              alt="Photography Portoflio Website"
+                              src="assets/img/portfolio/jlmphoto_thumb.webp"
+                              alt="Photography Portoflio Web Site"
                               data-tip
                               data-for="jlm-photo-site"
                               onClick={() => setOpen4(true)}
@@ -174,7 +174,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/5.jpg"
+                              src="assets/img/portfolio/symon.webp"
                               alt="Symon Sez Web Game"
                               data-tip
                               data-for="symon-sez-game"
@@ -257,6 +257,10 @@ const Portfolio = () => {
                     product. Making mockups a part of your creative and
                     development process allows you to quickly and easily ideate.
                   </p>
+                  <div className="jlm_button">
+                    <button className="ib-button">Launch Site</button>
+                    <button className="ib-button">View Github Repo</button>
+                  </div>
                 </div>
                 <div className="detailbox">
                   <ul>
