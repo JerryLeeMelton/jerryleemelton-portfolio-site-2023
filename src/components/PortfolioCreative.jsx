@@ -122,7 +122,7 @@ const Portfolio = () => {
                               alt="Crypto Spotter Web Site"
                               data-tip
                               data-for="crypto-spotter-site"
-                              onClick={() => setOpen2(true)}
+                              onClick={() => setOpen3(true)}
                             />
                             <ReactTooltip
                               id="crypto-spotter-site"
@@ -150,7 +150,7 @@ const Portfolio = () => {
                               alt="Photography Portoflio Website"
                               data-tip
                               data-for="jlm-photo-site"
-                              onClick={() => setOpen2(true)}
+                              onClick={() => setOpen4(true)}
                             />
                             <ReactTooltip
                               id="jlm-photo-site"
@@ -178,7 +178,7 @@ const Portfolio = () => {
                               alt="Symon Sez Web Game"
                               data-tip
                               data-for="symon-sez-game"
-                              onClick={() => setOpen2(true)}
+                              onClick={() => setOpen5(true)}
                             />
                             <ReactTooltip
                               id="symon-sez-game"
@@ -266,7 +266,7 @@ const Portfolio = () => {
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>2022 - Present</span>
+                      <span>March 2022 - Present</span>
                     </li>
                   </ul>
                 </div>
@@ -379,15 +379,11 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Rewire AI</span>
                     </li>
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>March 2023</span>
                     </li>
                   </ul>
                 </div>
@@ -476,7 +472,7 @@ const Portfolio = () => {
               {/* END IMAGE */}
               <div className="portfolio_main_title">
                 <h3>Crypto Spotter Web Site</h3>
-                <span>Details</span>
+                {/* <span>Details</span> */}
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -498,17 +494,13 @@ const Portfolio = () => {
                 </div>
                 <div className="detailbox">
                   <ul>
-                    <li>
+                    {/* <li>
                       <span className="first">Client</span>
                       <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
+                    </li> */}
                     <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>January 2022</span>
                     </li>
                   </ul>
                 </div>
@@ -619,16 +611,8 @@ const Portfolio = () => {
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>March 2022</span>
                     </li>
                   </ul>
                 </div>
@@ -716,8 +700,8 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Polygon AI User Interface</h3>
-                <span>Details</span>
+                <h3>Symon Sez Web Game</h3>
+                {/* <span>Details</span> */}
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
@@ -744,12 +728,8 @@ const Portfolio = () => {
                       <span>Alvaro Morata</span>
                     </li>
                     <li>
-                      <span className="first">Category</span>
-                      <span>Details</span>
-                    </li>
-                    <li>
                       <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span>February 2022</span>
                     </li>
                   </ul>
                 </div>
