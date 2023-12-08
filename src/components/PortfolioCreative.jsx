@@ -724,10 +724,6 @@ const Portfolio = () => {
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
-                    </li>
-                    <li>
                       <span className="first">Date</span>
                       <span>February 2022</span>
                     </li>
