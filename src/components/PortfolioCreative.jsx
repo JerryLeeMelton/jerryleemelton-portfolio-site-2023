@@ -227,11 +227,12 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                {/* <img src="assets/img/thumbs/4-3.jpg" alt="tumb" /> */}
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage:
+                      "url(assets/img/portfolio/polygonui_detail_001.webp)",
                   }}
                 ></div>
               </div>
@@ -279,6 +280,10 @@ const Portfolio = () => {
                       <span className="first">Date</span>
                       <span>March 2022 - Present</span>
                     </li>
+                    <li>
+                      <span className="first">Technologies</span>
+                      <span>React, Electron, react-joyride, aptabase</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -289,11 +294,12 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        {/* <img src="img/thumbs/4-2.jpg" alt="thumb" /> */}
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage:
+                              "url(assets/img/portfolio/polygonui_detail_002.webp)",
                           }}
                         ></div>
                       </div>
@@ -303,11 +309,12 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        {/* <img src="img/thumbs/4-2.jpg" alt="thumb" /> */}
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage:
+                              "url(assets/img/portfolio/polygonui_detail_003.webp)",
                           }}
                         ></div>
                       </div>
@@ -317,11 +324,12 @@ const Portfolio = () => {
                   <li>
                     <div className="list_inner">
                       <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        {/* <img src="img/thumbs/4-2.jpg" alt="thumb" /> */}
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                            backgroundImage:
+                              "url(assets/img/portfolio/polygonui_detail_004.webp)",
                           }}
                         ></div>
                       </div>
