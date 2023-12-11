@@ -245,18 +245,25 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    When I landed my job at Rewire AI (then known as Rewire
+                    Neuro), my main task was to use my experience as a graphic
+                    designer to help redesign the user interface of their
+                    flagship application Polygon AI (then known as Pipsqueak
+                    Pro). I of course jumped at the chance to have such a huge
+                    impact on the user experience of the relatively young
+                    application.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    It has been extremely rewarding to see each new feature and
+                    redesign that I implemented transform the application into
+                    something that I was more and more proud of each day.
+                  </p>
+                  <p>
+                    UI features that I developed in my time working on Polygon
+                    AI include a unified graphical style, redesigned tab-based
+                    navigation, OS-specific custom title bars, in-app tutorials,
+                    telemetry features, and switchable color themes (dark mode /
+                    light mode) among other features.
                   </p>
                   <div className="jlm_button">
                     <button
