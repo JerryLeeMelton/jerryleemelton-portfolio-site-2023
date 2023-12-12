@@ -451,11 +451,12 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                {/* <img src="assets/img/thumbs/4-3.jpg" alt="tumb" /> */}
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage:
+                      "url(assets/img/portfolio/cryptospotter_detail_001.webp)",
                   }}
                 ></div>
               </div>
@@ -468,18 +469,17 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    In early 2023, Rewire began talks about rebranding their
+                    flagship application Pipsqueak Pro. I was super happy to
+                    flex my graphic design muscles and help refine some of the
+                    rough logo concepts that the team had come up with.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    After some internal debate and revisions, we decided on the
+                    logo concept that I had designed. I think the angular,
+                    futuristic features of the logo communicate the
+                    forward-thinking nature of Rewire and their application very
+                    well.
                   </p>
                   <div className="jlm_button">
                     <button
@@ -519,57 +519,14 @@ const Portfolio = () => {
                       <span className="first">Date</span>
                       <span>January 2022</span>
                     </li>
+                    <li>
+                      <span className="first">Technologies</span>
+                      <span>Express, EJS, coingecko-api, node-fetch</span>
+                    </li>
                   </ul>
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
@@ -657,6 +614,10 @@ const Portfolio = () => {
                     <li>
                       <span className="first">Date</span>
                       <span>March 2022</span>
+                    </li>
+                    <li>
+                      <span className="first">Technologies</span>
+                      <span>Express, EJS, nodemailer</span>
                     </li>
                   </ul>
                 </div>
@@ -797,6 +758,10 @@ const Portfolio = () => {
                     <li>
                       <span className="first">Date</span>
                       <span>February 2022</span>
+                    </li>
+                    <li>
+                      <span className="first">Technologies</span>
+                      <span>Express, EJS, KUTE.js</span>
                     </li>
                   </ul>
                 </div>
