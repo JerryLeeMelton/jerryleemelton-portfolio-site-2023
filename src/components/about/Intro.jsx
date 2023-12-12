@@ -2,7 +2,7 @@ import React from "react"
 
 const Intro = () => {
   const introContent = {
-    image: "assets/img/slider/1.jpg",
+    image: "assets/img/portrait/jlm_main_portrait.webp",
     name: "Jerry Lee Melton",
     designation: "Front-End Software Developer and Designer",
     text: (

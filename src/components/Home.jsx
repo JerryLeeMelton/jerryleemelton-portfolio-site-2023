@@ -10,7 +10,8 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage:
+                  "url(assets/img/portrait/jlm_home_zoomed_portrait.webp)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
