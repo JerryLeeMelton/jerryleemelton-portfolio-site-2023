@@ -680,11 +680,12 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                {/* <img src="assets/img/thumbs/4-3.jpg" alt="tumb" /> */}
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage:
+                      "url(assets/img/portfolio/symon_detail_001.webp)",
                   }}
                 ></div>
               </div>
@@ -697,18 +698,20 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    One year for Christmas my mom and dad gave my brother and I
+                    a Simon game that soon became a popular fixture in the
+                    family game closet. The game has since been lost to time and
+                    the ravages of my folks’ garage, so I wanted to create a web
+                    version of the game that could live on and carry the fun
+                    memories forward.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    For my web version, I wanted to replicate, as closely as I
+                    could, the colors and sounds from the game from my
+                    childhood. I used a synthesizer to create the sounds with
+                    the exact tones from the original game and I sampled colors
+                    from photos online of the original transparent Simon that I
+                    had back in the day.
                   </p>
                   <div className="jlm_button">
                     <button
@@ -752,53 +755,6 @@ const Portfolio = () => {
                 </div>
               </div>
               {/* main_details */}
-
-              <div className="additional_images">
-                <ul className="gallery_zoom">
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
-                  {/* END SHOT */}
-                </ul>
-              </div>
             </div>
           </div>
           {/* END BOX INNER */}
