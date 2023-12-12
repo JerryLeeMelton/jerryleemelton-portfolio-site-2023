@@ -550,11 +550,12 @@ const Portfolio = () => {
           <div className="box_inner">
             <div className="description_wrap scrollable">
               <div className="image">
-                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                {/* <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />z */}
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage:
+                      "url(assets/img/portfolio/jlmphoto_detail_001.webp",
                   }}
                 ></div>
               </div>
@@ -566,18 +567,16 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    After years of using Wordpress for my own personal
+                    photography portfolio website and dealing with the
+                    frustrations that come along with that, I decided to create
+                    my own portfolio site from the ground up using Express.
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    I’ve always liked the more minimal approach to a visual arts
+                    portfolio site like the one I have here. I believe it allows
+                    the viewer to truly focus on what is being presented and it
+                    allows the work to speak for itself.
                   </p>
                   <div className="jlm_button">
                     <button
@@ -631,40 +630,28 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage:
+                              "url(assets/img/portfolio/jlmphoto_detail_002.webp",
                           }}
                         ></div>
                       </div>
                     </div>
                   </li>
                   {/* END SHOT */}
-                  <li>
+                  {/* <li>
                     <div className="list_inner">
                       <div className="my_image">
                         <img src="img/thumbs/4-2.jpg" alt="thumb" />
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage:
+                              "url(assets/img/portfolio/jlmphoto_detail_003.webp)",
                           }}
                         ></div>
                       </div>
                     </div>
-                  </li>
-                  {/* END SHOT */}
-                  <li>
-                    <div className="list_inner">
-                      <div className="my_image">
-                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
-                        <div
-                          className="main"
-                          style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
-                          }}
-                        ></div>
-                      </div>
-                    </div>
-                  </li>
+                  </li> */}
                   {/* END SHOT */}
                 </ul>
               </div>
