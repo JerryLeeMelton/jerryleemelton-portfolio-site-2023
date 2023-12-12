@@ -469,17 +469,15 @@ const Portfolio = () => {
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    In early 2023, Rewire began talks about rebranding their
-                    flagship application Pipsqueak Pro. I was super happy to
-                    flex my graphic design muscles and help refine some of the
-                    rough logo concepts that the team had come up with.
+                    As a dabbler in cryptocurrency investing, I thought it would
+                    be useful and fun to build a website that was a simple, no
+                    nonsense page with all of the info that I would care to
+                    check regularly and none of the fluff.
                   </p>
                   <p>
-                    After some internal debate and revisions, we decided on the
-                    logo concept that I had designed. I think the angular,
-                    futuristic features of the logo communicate the
-                    forward-thinking nature of Rewire and their application very
-                    well.
+                    Designed to be as readable at a glance as possible, the site
+                    features a very minimalist, responsive design and a
+                    pleasingly soft, subtly animated gradient background.
                   </p>
                   <div className="jlm_button">
                     <button
