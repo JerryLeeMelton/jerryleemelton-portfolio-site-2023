@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import { FaMoon, FaSun } from "react-icons/fa"
+// import { FaMoon, FaSun } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import Home from "../components/Home"
 import About from "../components/about/AboutMain"
