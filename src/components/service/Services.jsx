@@ -18,43 +18,37 @@ const Services = () => {
       id: 1,
       no: "01",
       title: "Web Design & Development",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `UI & UX design, layouts, effective branding`,
     },
     {
       id: 2,
       no: "02",
       title: "Graphic Design",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `Logo design, design for print & web, brand identity, layout, color palettes`,
     },
     {
       id: 3,
       no: "03",
       title: "Photography & Photo Editing",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `Studio photography & lighting, photo editing & manipulation, digital color management`,
     },
     {
       id: 4,
       no: "04",
       title: "Audio Editing & Music Production",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `Songwriting, mixing, mastering, beat production, sound design, sound effects`,
     },
     {
       id: 5,
       no: "05",
       title: "Content Writing",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `Copywriting, instructional writing, marketing materials`,
     },
     {
       id: 6,
       no: "06",
       title: "Video Editing",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      text: `Basic video editing, color grading, transitions, effects`,
     },
   ]
 
@@ -66,8 +60,7 @@ const Services = () => {
             <span className="number">{item.no}</span>
             <h3 className="title">{item.title}</h3>
             <p className="text">{item.text}</p>
-            <div className="jlm_read_more">
-              {/* <a href="#" onClick={toggleModal}> */}
+            {/* <div className="jlm_read_more">
               <a
                 href="#"
                 onClick={(e) => {
@@ -77,7 +70,7 @@ const Services = () => {
               >
                 <span>Read More</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </li>
       ))}
