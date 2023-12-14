@@ -11,7 +11,6 @@ const Intro = () => {
           I'm a web developer and graphic designer currently based in Portland,
           Oregon. I have a huge passion for creative work as well as tech, so
           web development has been an incredibly rewarding field to dive into.
-          city.
         </p>
 
         <p>

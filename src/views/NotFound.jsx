@@ -49,14 +49,14 @@ const NotFound = () => {
         <footer className="footer-wrapper">
           <div className="copyright">
             <p>
-              &copy; 2021 Tokyo Created by
-              <a
+              &copy; {new Date().getFullYear()} Jerry Lee Melton
+              {/* <a
                 href="https://themeforest.net/user/ib-themes"
                 target="_blank"
                 rel="noreferrer"
               >
                 Ib-Themes
-              </a>
+              </a> */}
             </p>
           </div>
           {/* END COPYRIGHT */}
