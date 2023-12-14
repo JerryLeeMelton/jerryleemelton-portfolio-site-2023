@@ -11,10 +11,10 @@ const Contact = () => {
     e.preventDefault()
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_6oae93r",
+        "template_v2cbykx",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "RkmShhb7Hrl2TPGmC"
       )
       .then(
         (result) => {
@@ -72,7 +72,7 @@ const Contact = () => {
                   <li>
                     <input
                       type="text"
-                      name="name"
+                      name="user_name"
                       placeholder="Name"
                       required
                     />
@@ -84,6 +84,16 @@ const Contact = () => {
                       type="email"
                       name="user_email"
                       placeholder="Email"
+                      required
+                    />
+                  </li>
+                  {/* END EMAIL */}
+
+                  <li>
+                    <input
+                      type="text"
+                      name="subject"
+                      placeholder="Subject"
                       required
                     />
                   </li>
