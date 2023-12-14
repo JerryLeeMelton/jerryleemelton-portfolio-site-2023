@@ -73,18 +73,18 @@ const HomeMain = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/setting.svg"
-                      alt="avatar"
-                    />
-                    <span className="menu_content">Service</span>
-                  </Tab>
-                  <Tab>
-                    <img
-                      className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
                     <span className="menu_content">Portfolio</span>
+                  </Tab>
+                  <Tab>
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/setting.svg"
+                      alt="avatar"
+                    />
+                    <span className="menu_content">Services</span>
                   </Tab>
                   {/* <Tab>
                     <img
@@ -137,6 +137,11 @@ const HomeMain = () => {
               {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
+                <Portfolio />
+              </TabPanel>
+              {/* END PORTFOLIO MENU TAB CONTENT */}
+
+              <TabPanel>
                 <div
                   data-aos="fade-right"
                   data-aos-duration="1200"
@@ -146,11 +151,6 @@ const HomeMain = () => {
                 </div>
               </TabPanel>
               {/* END ABOUT MENU TAB CONTENT */}
-
-              <TabPanel>
-                <Portfolio />
-              </TabPanel>
-              {/* END PORTFOLIO MENU TAB CONTENT */}
 
               {/* <TabPanel>
                 <News />
