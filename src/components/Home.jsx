@@ -18,7 +18,7 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Jerry Lee Melton</h3>
+            <h3 className="name josefin-light">Jerry Lee Melton</h3>
             <p className="job">
               Passionate and creative front-end developer and Designer based in
               Portland, OR.

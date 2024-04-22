@@ -46,7 +46,7 @@ const HomeMain = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <h3>Jerry Lee Melton</h3>
+                <h3 className="josefin-light">Jerry Lee Melton</h3>
                 {/* <Link className="navbar-brand" to="/">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
                 </Link> */}
