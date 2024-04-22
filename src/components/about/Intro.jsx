@@ -4,13 +4,13 @@ const Intro = () => {
   const introContent = {
     image: "assets/img/portrait/jlm_main_portrait.webp",
     name: "Jerry Lee Melton",
-    designation: "Front-End Software Developer and Designer",
+    designation: "UX/UI Designer and Front-End Developer",
     text: (
       <>
         <p>
-          I'm a web developer and graphic designer currently based in Portland,
-          Oregon. I have a huge passion for creative work as well as tech, so
-          web development has been an incredibly rewarding field to dive into.
+          I'm a designer and developer currently based in Portland, Oregon. I
+          have a huge passion for creative work as well as tech, so web
+          development has been an incredibly rewarding field to dive into.
         </p>
 
         <p>
@@ -34,7 +34,7 @@ const Intro = () => {
         <img src={introContent.image} alt="about" />
       </div>
       <div className="about_title">
-        <h3>{introContent.name}</h3>
+        <h3 className="josefin-light">{introContent.name}</h3>
         <span>{introContent.designation}</span>
       </div>
       <div className="about_text">{introContent.text}</div>
