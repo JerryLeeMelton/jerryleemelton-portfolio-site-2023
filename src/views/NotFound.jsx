@@ -13,9 +13,6 @@ const NotFound = () => {
           <div className="leftpart_inner">
             <div className="logo">
               <h3 className="josefin-light">Jerry Lee Melton</h3>
-              {/* <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link> */}
             </div>
             {/* END LOGO */}
             <div className="copyright">

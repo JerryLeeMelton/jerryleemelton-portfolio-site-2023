@@ -28,18 +28,6 @@ const HomeMain = () => {
       <PageTitle title="Jerry Lee Melton - Front-End Developer" />
       {/* End page title for seo */}
 
-      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
-        {isDarkMode ? (
-          <>
-            <FaSun />
-          </>
-        ) : (
-          <>
-            <FaMoon />
-          </>
-        )}
-      </button> */}
-
       <Tabs>
         <TabList>
           {/* START LEFT MENU CONTENT */}
@@ -47,9 +35,6 @@ const HomeMain = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <h3 className="josefin-light">Jerry Lee Melton</h3>
-                {/* <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link> */}
               </div>
               {/* END LOGO */}
 
