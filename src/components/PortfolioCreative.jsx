@@ -14,7 +14,7 @@ const Portfolio = () => {
   const [isOpen4, setOpen4] = useState(false)
   const [isOpen5, setOpen5] = useState(false)
 
-  const [openCaseStudy, setOpenCaseStudy] = useState("CaseStudyTest")
+  const [openCaseStudy, setOpenCaseStudy] = useState("")
 
   const toggleModalOne = () => {
     setOpen1(!isOpen1)
@@ -36,9 +36,9 @@ const Portfolio = () => {
     setOpen5(!isOpen5)
   }
 
-  // if (true) {
-  //   return <CaseStudyViewer caseStudy={openCaseStudy} />
-  // }
+  if (openCaseStudy != "") {
+    return <CaseStudyViewer caseStudy={openCaseStudy} />
+  }
 
   return (
     <>
@@ -65,7 +65,8 @@ const Portfolio = () => {
                   <TabPanel>
                     <ul className="portfolio_list">
                       {/* START PORTFOLIO PIECE 1 ==========================================================*/}
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
@@ -74,6 +75,7 @@ const Portfolio = () => {
                               data-tip
                               data-for="polygon-ai-ui"
                               onClick={() => setOpen1(true)}
+                              // onClick={() => setOpenCaseStudy("PolygonAI")}
                             />
                             <ReactTooltip
                               id="polygon-ai-ui"
@@ -93,7 +95,8 @@ const Portfolio = () => {
                       {/* END PORTFOLIO PIECE 1 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 2 ==========================================================*/}
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
@@ -121,7 +124,8 @@ const Portfolio = () => {
                       {/* END PORTFOLIO PIECE 2 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 3 ==========================================================*/}
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
@@ -149,7 +153,8 @@ const Portfolio = () => {
                       {/* END PORTFOLIO PIECE 3 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 4 ==========================================================*/}
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
@@ -177,7 +182,8 @@ const Portfolio = () => {
                       {/* END PORTFOLIO PIECE 4 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 5 ==========================================================*/}
-                      <li data-aos="fade-right" data-aos-duration="1200">
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
