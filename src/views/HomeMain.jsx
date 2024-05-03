@@ -67,8 +67,8 @@ const HomeMain = () => {
                   <Tab>
                     <img
                       className="svg"
-                      src="/assets/img/svg/setting.svg"
-                      alt="avatar"
+                      src="/assets/img/svg/paper.svg"
+                      alt="paper"
                     />
                     <span className="menu_content">Services</span>
                   </Tab>
@@ -123,7 +123,13 @@ const HomeMain = () => {
               {/* END ABOUT MENU TAB CONTENT */}
 
               <TabPanel>
-                <Portfolio />
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="100"
+                >
+                  <Portfolio />
+                </div>
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
 

@@ -5,6 +5,7 @@ import ReactTooltip from "react-tooltip"
 import ModalVideo from "react-modal-video"
 import Modal from "react-modal"
 import Social from "./Social"
+import { CaseStudyViewer } from "./CaseStudyViewer"
 
 const Portfolio = () => {
   const [isOpen1, setOpen1] = useState(false)
@@ -12,6 +13,8 @@ const Portfolio = () => {
   const [isOpen3, setOpen3] = useState(false)
   const [isOpen4, setOpen4] = useState(false)
   const [isOpen5, setOpen5] = useState(false)
+
+  const [openCaseStudy, setOpenCaseStudy] = useState("CaseStudyTest")
 
   const toggleModalOne = () => {
     setOpen1(!isOpen1)
@@ -32,6 +35,10 @@ const Portfolio = () => {
   const toggleModalFive = () => {
     setOpen5(!isOpen5)
   }
+
+  // if (true) {
+  //   return <CaseStudyViewer caseStudy={openCaseStudy} />
+  // }
 
   return (
     <>
