@@ -1,10 +1,8 @@
 import React, { useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import { Gallery, Item } from "react-photoswipe-gallery"
+import { Gallery } from "react-photoswipe-gallery"
 import ReactTooltip from "react-tooltip"
-import ModalVideo from "react-modal-video"
 import Modal from "react-modal"
-import Social from "./Social"
 import { CaseStudyViewer } from "./CaseStudyViewer"
 
 const Portfolio = () => {
@@ -36,7 +34,7 @@ const Portfolio = () => {
     setOpen5(!isOpen5)
   }
 
-  if (openCaseStudy != "") {
+  if (openCaseStudy !== "") {
     return <CaseStudyViewer caseStudy={openCaseStudy} />
   }
 

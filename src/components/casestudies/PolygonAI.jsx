@@ -1,8 +1,6 @@
 import * as React from "react"
 
-export const PolygonAI = (props) => {
-  const [body, title, sender] = [props.body, props.title, props.sender]
-
+export const PolygonAI = () => {
   return (
     <div
       data-aos="fade-right"
@@ -16,7 +14,20 @@ export const PolygonAI = (props) => {
             <div className="left">
               <h3>Polygon AI</h3>
               <h4>Challenge:</h4>
+              <p>
+                Finding other musicians who share interests can be very
+                challenging and subject to happenstance.
+              </p>
               <h4>Solution: </h4>
+              <p>
+                Music Link Up is a an app that makes it simple for musicians to
+                find like-minded to find each other and start playing together.
+              </p>
+              <h4>Original State</h4>
+              <p>Polygon OG Image</p>
+              <p>Polygon OG Image</p>
+              <h4>Redesign Process</h4>
+              <h4>Final Design</h4>
             </div>
           </div>
         </div>
