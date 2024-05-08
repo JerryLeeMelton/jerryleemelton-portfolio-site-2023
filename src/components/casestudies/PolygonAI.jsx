@@ -14,13 +14,13 @@ export const PolygonAI = () => {
             <div className="left">
               <h3>Polygon AI</h3>
               <p>***Hero Image***</p>
-              <h4>Challenge:</h4>
+              <h6>Challenge:</h6>
               <p>
                 Pipsqueak Pro, now known as Polygon AI, offered powerful but
                 very technical and niche capabilities that were hampered by an
                 unfocused user interface design.
               </p>
-              <h4>Solution: </h4>
+              <h6>Solution: </h6>
               <p>
                 A rebranding and interface redesign that clarifies UI sections
                 and provides a more focused and cohesive user experience.
@@ -35,8 +35,9 @@ export const PolygonAI = () => {
                 the resulting unfocused visual styling further contributed to
                 user confusion.
               </p>
+              <p>***Pipsqueak Pro OG Image***</p>
               <h4>Redesign Process</h4>
-              <h5>Name and Logo</h5>
+              <h6>Name and Logo</h6>
               <p>
                 The name Polygon AI was chosen by the team to better reflect the
                 capabilities of the software, which centers around annotating
@@ -55,11 +56,12 @@ export const PolygonAI = () => {
                 would then inform the creative direction for the interface
                 design going forward.
               </p>
-
-              <p>Polygon OG Image</p>
-              <p>Polygon OG Image</p>
-              <h4>Redesign Process</h4>
-              <h4>Final Design</h4>
+              <h6>Interface Redesign</h6>
+              <p>***Wireframes***</p>
+              <h6>Additional Features</h6>
+              <p>Dark/Light mode.</p>
+              <p>Tutorials</p>
+              <h4>Final Product</h4>
             </div>
           </div>
         </div>
