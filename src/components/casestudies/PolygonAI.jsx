@@ -58,10 +58,45 @@ export const PolygonAI = () => {
               </p>
               <h6>Interface Redesign</h6>
               <p>***Wireframes***</p>
-              <h6>Additional Features</h6>
-              <p>Dark/Light mode.</p>
-              <p>Tutorials</p>
+              <h4>Additional Features</h4>
+              <h6>Color Themes</h6>
+              <p>
+                As part of the improvements to the user interface, I was also
+                responsible for adding color themes to Polygon AI. This added to
+                the polish of Polygon as well as provides users with a better
+                experience by allowing them to customize the appearance of the
+                app to suit their personal preference. I implemented themes into
+                Polygon in a way that was extensible, leaving open the option to
+                add fun and functional new color themes in the future.
+              </p>
+              <h6>In-App Tutorials</h6>
+              <p>
+                As I finalized the interface improvements that I had designed,
+                the Rewire team decided that some of the app's more specialized
+                features would benefit from more direct guidance than our help
+                documentation could provide. Consequently, I implemented a
+                series of guided, in-app tutorials for Polygon AI to help users
+                better understand the features of the app. This further improved
+                usability and user retention for Polygon, which directly
+                translated into increased revenue for the company.
+              </p>
+              <h6>Analytics</h6>
+              <p>
+                Another important feature that I created for Polygon was the
+                ability to track user analytics data. This helped the team to
+                better understand user behavior and any potential pain points in
+                the user experience.
+              </p>
               <h4>Final Product</h4>
+              <p>*** Current Polygon UI ***</p>
+              <p>
+                I was fortunate to join Rewire relatively early in their
+                existence as a company. As such, I had the opportunity to do a
+                lot of very exciting and impactful work on Polygon AI. I am
+                extremely proud of what I acheived with Polygon and I am excited
+                to carry the lessons that I learned while working on it through
+                to my future projects.
+              </p>
             </div>
           </div>
         </div>
