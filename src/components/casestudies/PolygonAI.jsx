@@ -12,8 +12,12 @@ export const PolygonAI = () => {
         <div className="jlm_title">
           <div className="title_flex">
             <div className="left">
-              <h3>Polygon AI</h3>
-              <p>***Hero Image***</p>
+              <h3 style={{ marginBottom: "1.5rem" }}>Polygon AI</h3>
+              <img
+                src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
+                alt="Polygon Main Image"
+                style={{ marginBottom: "1.5rem" }}
+              />
               <h6>Challenge:</h6>
               <p>
                 Pipsqueak Pro, now known as Polygon AI, offered powerful but

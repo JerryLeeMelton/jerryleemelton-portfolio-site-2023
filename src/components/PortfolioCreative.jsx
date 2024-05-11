@@ -72,8 +72,8 @@ const Portfolio = () => {
                               alt="Polygon AI UI"
                               data-tip
                               data-for="polygon-ai-ui"
-                              onClick={() => setOpen1(true)}
-                              // onClick={() => setOpenCaseStudy("PolygonAI")}
+                              // onClick={() => setOpen1(true)}
+                              onClick={() => setOpenCaseStudy("PolygonAI")}
                             />
                             <ReactTooltip
                               id="polygon-ai-ui"
