@@ -12,20 +12,20 @@ export const PolygonAI = () => {
         <div className="jlm_title">
           <div className="title_flex">
             <div className="left">
-              <h3 style={{ marginBottom: "1.5rem" }}>Polygon AI</h3>
+              <h3 class="marg-bottom-one-and-half">Polygon AI</h3>
               <img
                 src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
                 alt="Polygon Main Image"
-                style={{ marginBottom: "1.5rem" }}
+                class="marg-bottom-one-and-half"
               />
               <h6>Challenge:</h6>
-              <p>
+              <p class="marg-bottom-one">
                 Pipsqueak Pro, now known as Polygon AI, offered powerful but
                 very technical and niche capabilities that were hampered by an
                 unfocused user interface design.
               </p>
               <h6>Solution: </h6>
-              <p>
+              <p class="marg-bottom-three">
                 A rebranding and interface redesign that clarifies UI sections
                 and provides a more focused and cohesive user experience.
               </p>
