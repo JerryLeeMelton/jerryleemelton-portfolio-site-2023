@@ -248,6 +248,23 @@ h6 {
   }
 }
 
+.marg-bottom-half {
+  margin-bottom: 0.5rem;
+}
+.marg-bottom-one {
+  margin-bottom: 1rem;
+}
+.marg-bottom-one-and-half {
+  margin-bottom: 1.5rem;
+}
+.marg-bottom-three {
+  margin-bottom: 3rem;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
 /*---------------------------------------------------*/
 /*	02) LEFTPART
 /*---------------------------------------------------*/
@@ -991,15 +1008,6 @@ ul.react-tabs__tab-list {
   position: relative;
 }
 
-.marg-bottom-one {
-  margin-bottom: 1rem;
-}
-.marg-bottom-one-and-half {
-  margin-bottom: 1.5rem;
-}
-.marg-bottom-three {
-  margin-bottom: 3rem;
-}
 
 /*---------------------------------------------------*/
 /*	07) NEWS 
