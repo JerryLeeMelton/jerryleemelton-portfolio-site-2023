@@ -41,7 +41,7 @@ const Resume = () => {
         {
           id: 1,
           year: "2022 - Present",
-          institute: "Rewire Neuro",
+          institute: "Rewire AI",
           degree: "Front-End Developer & UX/UI Designer",
         },
         {
