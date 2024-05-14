@@ -64,9 +64,9 @@ export const PolygonAI = () => {
                 user confusion.
               </p>
               <img
-                src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
-                alt="Polygon Main Image"
-                class="marg-bottom-three"
+                src="assets/img/casestudies/polygon/pipsqueakpro_main_screen.webp"
+                alt="Pipsqueak Pro Main Screen"
+                class="marg-bottom-one-and-half"
               />
               <h4 class="marg-bottom-one-and-half">Redesign Process</h4>
               <h6 className="marg-bottom-half">Name and Logo</h6>
@@ -80,8 +80,8 @@ export const PolygonAI = () => {
                 logo.
               </p>
               <img
-                src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
-                alt="Polygon Main Image"
+                src="assets/img/casestudies/polygon/pip_vs_poly_logos.webp"
+                alt="Polygon vs Pipsqueak Logos"
                 class="marg-bottom-one-and-half"
               />
               <p className="marg-bottom-three">
@@ -129,7 +129,7 @@ export const PolygonAI = () => {
               </p>
               <h4 className="marg-bottom-one-and-half">Final Product</h4>
               <img
-                src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
+                src="assets/img/casestudies/polygon/polygon_main_screen.webp"
                 alt="Polygon Main Image"
                 class="marg-bottom-one-and-half"
               />
