@@ -98,6 +98,21 @@ export const PolygonAI = () => {
                 alt="Polygon Main Image"
                 class="marg-bottom-three"
               />
+              <p>
+                When approaching the redesign of the interface for Polygon, one
+                of the biggest challenges that we faced was the non-linear
+                nature of the user workflow. Users would often bounce around
+                from section to section and complete tasks in an order that was
+                particular to them, so it was important to us to allow for that
+                while bringing better visual organization to the application.
+              </p>
+              <p>
+                Ultimately, we decided to keep the three panel design that the
+                app current had, but we added icon-based buttons along the left
+                and right borders of the app that would serve as navigation.
+                This allowed us to create clear sections in the app while
+                keeping the layout similar for existing users.
+              </p>
               <h4 className="marg-bottom-one-and-half">Additional Features</h4>
               <h6 className="marg-bottom-half">Color Themes</h6>
               <p className="marg-bottom-one-and-half">
