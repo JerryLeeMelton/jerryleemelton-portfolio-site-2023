@@ -15,7 +15,7 @@ export const PolygonAI = () => {
               <h3 class="marg-bottom-one-and-half">Polygon AI</h3>
               <img
                 src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
-                alt="Polygon Main Image"
+                alt="Polygon Main"
                 class="marg-bottom-one-and-half"
               />
               {/* <h6>Challenge:</h6> */}
@@ -89,7 +89,7 @@ export const PolygonAI = () => {
               <h6 className="marg-bottom-one-and-half">Interface Redesign</h6>
               <img
                 src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
-                alt="Polygon Main Image"
+                alt="Polygon Main"
                 class="marg-bottom-three"
               />
               <p>
@@ -132,7 +132,7 @@ export const PolygonAI = () => {
               <h4 className="marg-bottom-one-and-half">Final Product</h4>
               <img
                 src="assets/img/casestudies/polygon/polygon_main_screen.webp"
-                alt="Polygon Main Image"
+                alt="Polygon Main"
                 class="marg-bottom-one-and-half"
               />
               <p>
