@@ -104,7 +104,7 @@ const Portfolio = () => {
 
                       {/* START PORTFOLIO PIECE 2 ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
-                      <li>
+                      {/* <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
@@ -122,13 +122,13 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Polygon AI Logo Design</h5>
-                                {/* <span>Vimeo</span> */}
-                              </div>
+                                <h5>Polygon AI Logo Design</h5> */}
+                      {/* <span>Vimeo</span> */}
+                      {/* </div>
                             </ReactTooltip>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
                       {/* END PORTFOLIO PIECE 2 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 3 ==========================================================*/}
