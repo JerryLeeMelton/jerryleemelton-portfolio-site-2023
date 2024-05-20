@@ -105,7 +105,7 @@ export const PolygonAI = (props) => {
                 their unique order. It was crucial to maintain this flexibility
                 while improving visual organization.
               </p>
-              <p>
+              <p className="marg-bottom-three">
                 We retained the three-panel design but introduced icon-based
                 buttons along the app’s left and right borders for navigation.
                 This created clear sections within the app while preserving a
