@@ -35,13 +35,23 @@ const Portfolio = () => {
   }
 
   if (openCaseStudy !== "") {
-    return <CaseStudyViewer caseStudy={openCaseStudy} />
+    return (
+      <CaseStudyViewer
+        caseStudy={openCaseStudy}
+        setOpenCaseStudy={setOpenCaseStudy}
+      />
+    )
   }
 
   return (
     <>
       <Gallery>
-        <div className="container">
+        <div
+          className="container"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+          data-aos-delay="100"
+        >
           <div className="jlm_portfolio">
             <div className="jlm_title">
               <div className="title_flex">

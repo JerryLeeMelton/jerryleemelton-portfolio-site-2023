@@ -1,6 +1,12 @@
 import * as React from "react"
 
-export const PolygonAI = () => {
+export const PolygonAI = (props) => {
+  const setOpenCaseStudy = props.setOpenCaseStudy
+
+  const backButtonClick = () => {
+    setOpenCaseStudy("")
+  }
+
   return (
     <div
       data-aos="fade-right"
@@ -12,14 +18,14 @@ export const PolygonAI = () => {
         <div className="jlm_title">
           <div className="title_flex">
             <div className="left">
-              <h3 class="marg-bottom-one-and-half">Polygon AI</h3>
+              <h3 className="marg-bottom-one-and-half">Polygon AI</h3>
               <img
                 src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
                 alt="Polygon Main"
-                class="marg-bottom-one-and-half"
+                className="marg-bottom-one-and-half"
               />
               {/* <h6>Challenge:</h6> */}
-              <p class="marg-bottom-one-and-half">
+              <p className="marg-bottom-one-and-half">
                 <span
                   className="text-bold"
                   style={{
@@ -37,7 +43,7 @@ export const PolygonAI = () => {
                 was hampered by an unfocused user interface design.
               </p>
               {/* <h6>Solution: </h6> */}
-              <p class="marg-bottom-three">
+              <p className="marg-bottom-three">
                 <span
                   className="text-bold background-transparent"
                   style={{
@@ -53,7 +59,7 @@ export const PolygonAI = () => {
                 sections, providing a more focused and cohesive user experience.
               </p>
               <h4 className="marg-bottom-half">Original State</h4>
-              <p class="marg-bottom-one-and-half">
+              <p className="marg-bottom-one-and-half">
                 Initially, Pipsqueak Pro featured three panels with various
                 nested functions, lacking a clear workflow for users. Features
                 were not intuitively grouped, and the absence of a dedicated
@@ -63,11 +69,11 @@ export const PolygonAI = () => {
               <img
                 src="assets/img/casestudies/polygon/pipsqueakpro_main_screen.webp"
                 alt="Pipsqueak Pro Main Screen"
-                class="marg-bottom-one-and-half"
+                className="marg-bottom-one-and-half"
               />
-              <h4 class="marg-bottom-one-and-half">Redesign Process</h4>
+              <h4 className="marg-bottom-one-and-half">Redesign Process</h4>
               <h6 className="marg-bottom-half">Name and Logo</h6>
-              <p class="marg-bottom-one-and-half">
+              <p className="marg-bottom-one-and-half">
                 The team chose the name Polygon AI to better reflect the
                 software's capabilities, which involve annotating images with
                 shapes known as regions of interest (R.O.I.s), and to align with
@@ -78,7 +84,7 @@ export const PolygonAI = () => {
               <img
                 src="assets/img/casestudies/polygon/pip_vs_poly_logos.webp"
                 alt="Polygon vs Pipsqueak Logos"
-                class="marg-bottom-one-and-half"
+                className="marg-bottom-one-and-half"
               />
               <p className="marg-bottom-three">
                 After numerous sketches and iterations, we settled on a sleeker,
@@ -90,7 +96,7 @@ export const PolygonAI = () => {
               <img
                 src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
                 alt="Polygon Main"
-                class="marg-bottom-three"
+                className="marg-bottom-three"
               />
               <p>
                 When approaching the redesign of the interface for Polygon, one
@@ -133,14 +139,20 @@ export const PolygonAI = () => {
               <img
                 src="assets/img/casestudies/polygon/polygon_main_screen.webp"
                 alt="Polygon Main"
-                class="marg-bottom-one-and-half"
+                className="marg-bottom-one-and-half"
               />
-              <p>
+              <p className="marg-bottom-one-and-half">
                 Joining Rewire early in its development allowed me to make
                 significant and impactful contributions to Polygon AI. I am
                 extremely proud of my achievements with Polygon and am eager to
                 apply the lessons learned to future projects.
               </p>
+
+              <div className="jlm_button">
+                <button className="ib-button" onClick={backButtonClick}>
+                  Back To Portfolio
+                </button>
+              </div>
             </div>
           </div>
         </div>

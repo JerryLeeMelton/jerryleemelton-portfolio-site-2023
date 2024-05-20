@@ -4,7 +4,7 @@ export const CaseStudyTest = (props) => {
   const [body, title, sender] = [props.body, props.title, props.sender]
 
   return (
-    <div class="container">
+    <div className="container">
       <body>
         <h1>{title}</h1>
         <h3>From: {sender}</h3>

@@ -4,12 +4,13 @@ import { PolygonAI } from "./caseStudies/PolygonAI"
 
 export const CaseStudyViewer = (props) => {
   const [caseStudy] = [props.caseStudy]
+  const setOpenCaseStudy = props.setOpenCaseStudy
 
   switch (caseStudy) {
     case "PolygonAI":
-      return <PolygonAI />
+      return <PolygonAI setOpenCaseStudy={setOpenCaseStudy} />
     case "CaseStudyTest":
-      return <CaseStudyTest />
+      return <CaseStudyTest setOpenCaseStudy={setOpenCaseStudy} />
     default:
       return null
   }
