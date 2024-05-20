@@ -94,8 +94,8 @@ export const PolygonAI = (props) => {
               </p>
               <h6 className="marg-bottom-one-and-half">Interface Redesign</h6>
               <img
-                src="assets/img/casestudies/polygon/polygon_casestudy_hero_cropped.webp"
-                alt="Polygon Main"
+                src="assets/img/casestudies/polygon/polygon_wireframes.webp"
+                alt="Polygon Wireframes"
                 className="marg-bottom-three"
               />
               <p>
