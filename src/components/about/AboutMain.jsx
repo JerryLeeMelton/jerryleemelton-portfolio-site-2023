@@ -31,7 +31,7 @@ const AboutMain = () => {
           {/* End personal info */}
 
           <div className="jlm_button" data-position="left">
-            <a href="assets/cv/jerryleemelton_cv.pdf" download>
+            <a href="assets/cv/JerryLeeMelton_CV.pdf" download>
               <span>Download CV</span>
             </a>
             {/* <a href="assets/img/cv.pdf" download>
