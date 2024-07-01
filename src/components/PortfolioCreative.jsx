@@ -735,7 +735,19 @@ const Portfolio = () => {
                     had back in the day.
                   </p>
                   <div className="jlm_button">
-                    <button className="ib-button">Launch Site</button>
+                    <button
+                      className="ib-button"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        window.open(
+                          "https://symon.jerryleemelton.com/",
+                          "_blank"
+                        )
+                      }}
+                    >
+                      Launch Site
+                    </button>
+
                     <button
                       style={{ marginLeft: "1rem" }}
                       className="ib-button"
