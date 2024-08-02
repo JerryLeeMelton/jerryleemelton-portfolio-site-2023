@@ -1,6 +1,6 @@
 import * as React from "react"
-import { CaseStudyTest } from "./caseStudies/CaseStudyTest"
-import { PolygonAI } from "./caseStudies/PolygonAI"
+import { CaseStudyTest } from "./casestudies/CaseStudyTest"
+import { PolygonAI } from "./casestudies/PolygonAI"
 
 export const CaseStudyViewer = (props) => {
   const [caseStudy] = [props.caseStudy]
