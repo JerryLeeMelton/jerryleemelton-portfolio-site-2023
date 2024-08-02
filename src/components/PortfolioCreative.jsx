@@ -104,31 +104,31 @@ const Portfolio = () => {
 
                       {/* START PORTFOLIO PIECE 2 ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
-                      {/* <li>
+                      <li>
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/polygon_logo_thumb.webp"
-                              alt="Polygon AI UI"
+                              src="assets/img/portfolio/jlmphoto_thumb.webp"
+                              alt="Photography Portoflio Web Site"
                               data-tip
-                              data-for="polygon-ai-logo"
-                              onClick={() => setOpen2(true)}
+                              data-for="jlm-photo-site"
+                              onClick={() => setOpen4(true)}
                             />
                             <ReactTooltip
-                              id="polygon-ai-logo"
+                              id="jlm-photo-site"
                               place="bottom"
                               type="light"
                               effect="float"
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Polygon AI Logo Design</h5> */}
-                      {/* <span>Vimeo</span> */}
-                      {/* </div>
+                                <h5>Photography Portoflio Website</h5>
+                                {/* <span>Vimeo</span> */}
+                              </div>
                             </ReactTooltip>
                           </div>
                         </div>
-                      </li> */}
+                      </li>
                       {/* END PORTFOLIO PIECE 2 ==========================================================*/}
 
                       {/* START PORTFOLIO PIECE 3 ==========================================================*/}
@@ -166,35 +166,6 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/jlmphoto_thumb.webp"
-                              alt="Photography Portoflio Web Site"
-                              data-tip
-                              data-for="jlm-photo-site"
-                              onClick={() => setOpen4(true)}
-                            />
-                            <ReactTooltip
-                              id="jlm-photo-site"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Photography Portoflio Website</h5>
-                                {/* <span>Vimeo</span> */}
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
-                      {/* END PORTFOLIO PIECE 4 ==========================================================*/}
-
-                      {/* START PORTFOLIO PIECE 5 ==========================================================*/}
-                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
-                      <li>
-                        <div className="inner">
-                          <div className="entry jlm_portfolio_animation_wrap">
-                            <img
                               src="assets/img/portfolio/symon.webp"
                               alt="Symon Sez Web Game"
                               data-tip
@@ -216,7 +187,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END PORTFOLIO PIECE 5 ==========================================================*/}
+                      {/* END PORTFOLIO PIECE 4 ==========================================================*/}
                     </ul>
                     {/* END PORTFOLIO LIST */}
                   </TabPanel>
