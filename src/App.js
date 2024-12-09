@@ -4,6 +4,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import "photoswipe/dist/photoswipe.css"
 import { ToastContainer } from "react-toastify"
+import { CaseStudyProvider } from "./context/CaseStudyContext"
 
 const App = () => {
   useEffect(() => {
@@ -11,8 +12,10 @@ const App = () => {
   }, [])
   return (
     <div className="jlm_all_wrap">
-      <AllRoutes />
-      <ToastContainer />
+      <CaseStudyProvider>
+        <AllRoutes />
+        <ToastContainer />
+      </CaseStudyProvider>
     </div>
   )
 }

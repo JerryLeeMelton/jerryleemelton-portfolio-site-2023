@@ -2,12 +2,12 @@ import * as React from "react"
 import { CaseStudyTest } from "./casestudies/CaseStudyTest"
 import { PolygonAI } from "./casestudies/PolygonAI"
 import { PhotographyPortfolioSite } from "./casestudies/PhotographyPortfolioSite"
+import { useCaseStudy } from "../context/CaseStudyContext"
 
-export const CaseStudyViewer = (props) => {
-  const [caseStudy] = [props.caseStudy]
-  const setOpenCaseStudy = props.setOpenCaseStudy
+export const CaseStudyViewer = () => {
+  const { openCaseStudy, setOpenCaseStudy } = useCaseStudy()
 
-  switch (caseStudy) {
+  switch (openCaseStudy) {
     case "PolygonAI":
       return <PolygonAI setOpenCaseStudy={setOpenCaseStudy} />
     case "PhotographyPortfolioSite":

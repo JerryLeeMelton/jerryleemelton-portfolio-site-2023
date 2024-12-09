@@ -4,6 +4,7 @@ import { Gallery } from "react-photoswipe-gallery"
 import ReactTooltip from "react-tooltip"
 import Modal from "react-modal"
 import { CaseStudyViewer } from "./CaseStudyViewer"
+import { useCaseStudy } from "../context/CaseStudyContext"
 
 const Portfolio = () => {
   const [isOpen1, setOpen1] = useState(false)
@@ -12,7 +13,7 @@ const Portfolio = () => {
   const [isOpen4, setOpen4] = useState(false)
   const [isOpen5, setOpen5] = useState(false)
 
-  const [openCaseStudy, setOpenCaseStudy] = useState("")
+  const { openCaseStudy, setOpenCaseStudy } = useCaseStudy()
 
   const toggleModalOne = () => {
     setOpen1(!isOpen1)
@@ -35,12 +36,7 @@ const Portfolio = () => {
   }
 
   if (openCaseStudy !== "") {
-    return (
-      <CaseStudyViewer
-        caseStudy={openCaseStudy}
-        setOpenCaseStudy={setOpenCaseStudy}
-      />
-    )
+    return <CaseStudyViewer />
   }
 
   return (

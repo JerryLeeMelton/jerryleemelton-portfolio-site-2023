@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-// import { FaMoon, FaSun } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import Home from "../components/Home"
 import About from "../components/about/AboutMain"
@@ -10,9 +9,11 @@ import ServiceMain from "../components/service/ServiceMain"
 import Contact from "../components/Contact"
 import CopyRight from "../components/CopyRight"
 import PageTitle from "../components/PageTitle"
+import { useCaseStudy } from "../context/CaseStudyContext"
 
 const HomeMain = () => {
   const [isDarkMode, setIsDarkMode] = useState(false)
+  const { openCaseStudy, setOpenCaseStudy } = useCaseStudy()
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode)
@@ -23,12 +24,19 @@ const HomeMain = () => {
     setIsDarkMode(!isDarkMode)
   }
 
+  const handleTabSelect = (index) => {
+    console.log("handleTabSelect()  :  clicked index == ", index)
+    if (index === 2) {
+      setOpenCaseStudy("")
+    }
+  }
+
   return (
     <>
       <PageTitle title="Jerry Lee Melton - Front-End Developer" />
       {/* End page title for seo */}
 
-      <Tabs>
+      <Tabs onSelect={handleTabSelect}>
         <TabList>
           {/* START LEFT MENU CONTENT */}
           <div className="leftpart">
