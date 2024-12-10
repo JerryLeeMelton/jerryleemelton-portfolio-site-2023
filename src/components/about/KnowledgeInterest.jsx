@@ -11,6 +11,7 @@ const KnowledgeInterest = () => {
         "HTML5",
         "CSS 3",
         "React",
+        "Next.js",
         "Node.js",
         "JQuery",
         "Git, Github, Gitlab",
