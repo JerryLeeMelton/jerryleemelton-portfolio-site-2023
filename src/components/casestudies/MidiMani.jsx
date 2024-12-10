@@ -78,8 +78,11 @@ export const MidiMani = (props) => {
               <img
                 src="assets/img/casestudies/midimani/MIDIMANI_Portfolio_PianoRoll.webp"
                 alt="Pipsqueak Pro Main Screen"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                Piano roll in Ableton Live showing grid aligned MIDI
+              </div>
+
               <p className="marg-bottom-one-and-half">
                 However, many DAWs make this process unintuitive. For example,
                 in Ableton Live—the DAW I use—randomizing MIDI requires
@@ -91,8 +94,11 @@ export const MidiMani = (props) => {
               <img
                 src="assets/img/casestudies/midimani/MIDIMANI_Portfolio_MainImage.webp"
                 alt="Pipsqueak Pro Main Screen"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                MIDI Mani UI upon loading
+              </div>
+
               <p className="marg-bottom-one-and-half">
                 I wanted this project to be as frictionless as possible. The
                 app's UX needed to simplify MIDI randomization significantly to
@@ -109,8 +115,10 @@ export const MidiMani = (props) => {
               <img
                 src="assets/img/casestudies/midimani/MIDIMANI_Portfolio_SecondScreen.webp"
                 alt="Pipsqueak Pro Main Screen"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                MIDI Mani interface after uploading a MIDI file
+              </div>
 
               <h4 className="marg-bottom-one-and-half">The Looking Forward</h4>
               <p className="marg-bottom-one-and-half">

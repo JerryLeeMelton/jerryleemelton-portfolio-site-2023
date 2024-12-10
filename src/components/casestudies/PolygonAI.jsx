@@ -69,8 +69,10 @@ export const PolygonAI = (props) => {
               <img
                 src="assets/img/casestudies/polygon/pipsqueakpro_main_screen.webp"
                 alt="Pipsqueak Pro Main Screen"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                Pipsqueak Pro main interface screen before I joined the team
+              </div>
               <h4 className="marg-bottom-one-and-half">Redesign Process</h4>
               <h6 className="marg-bottom-half">Name and Logo</h6>
               <p className="marg-bottom-one-and-half">
@@ -84,8 +86,10 @@ export const PolygonAI = (props) => {
               <img
                 src="assets/img/casestudies/polygon/pip_vs_poly_logos.webp"
                 alt="Polygon vs Pipsqueak Logos"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                Old Pipsqueak Pro logo vs new Polygon AI logo
+              </div>
               <p className="marg-bottom-three">
                 After numerous sketches and iterations, we settled on a sleeker,
                 edgier logo compared to the previous Pipsqueak Pro design. The
@@ -96,8 +100,10 @@ export const PolygonAI = (props) => {
               <img
                 src="assets/img/casestudies/polygon/polygon_wireframes.webp"
                 alt="Polygon Wireframes"
-                className="marg-bottom-three"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                Wireframe sketches for the Polygon AI interface redesign
+              </div>
               <p>
                 When approaching the redesign of the interface for Polygon, one
                 of the significant challenges was the non-linear user workflow.
@@ -139,8 +145,10 @@ export const PolygonAI = (props) => {
               <img
                 src="assets/img/casestudies/polygon/polygon_main_screen.webp"
                 alt="Polygon Main"
-                className="marg-bottom-one-and-half"
               />
+              <div className="case-study-image-caption marg-bottom-one-and-half">
+                Current Polygon AI main user interface
+              </div>
               <p className="marg-bottom-one-and-half">
                 Joining Rewire early in its development allowed me to make
                 significant and impactful contributions to Polygon AI. I am
