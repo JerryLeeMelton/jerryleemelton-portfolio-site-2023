@@ -1,0 +1,42 @@
+MIDI MANI - Online MIDI Manipulator
+
+[HERO IMAGE]
+
+Challenge:
+Randomizing MIDI timing and velocity to create a "humanized" feel can be a cumbersome process in most digital audio workstations (DAWs).
+
+Solution:
+I developed a clean, minimalist web app to make humanizing MIDI files quick, intuitive, and accessible.
+
+
+MIDI Perfection
+
+MIDI (Musical Instrument Digital Interface) is a digital protocol that conveys information about a musical performance—notes played, their timing, and velocity (how hard they’re played).
+
+When creating or using MIDI data, notes are often perfectly aligned with the tempo's grid (e.g., quarter or eighth notes) and assigned uniform velocity values. While precise, this can result in sterile, lifeless music. Humanizing the data by adding subtle variations to timing and velocity creates a more natural, expressive sound.
+
+[PIANO ROLL IMAGE]
+
+However, many DAWs make this process unintuitive. For example, in Ableton Live—the DAW I use—randomizing MIDI requires combining two plugins and recording in real time to achieve consistent results.
+
+
+A Simple Solution
+
+[MIDI MANI IMAGE]
+
+I wanted this project to be as frictionless as possible. The app's UX needed to simplify MIDI randomization significantly to stand out as a better alternative to existing methods.
+
+The app’s minimalist design reflects its straightforward functionality. I included only essential UI elements, ensuring clarity and simplicity. Key UI components render only after a MIDI file is uploaded, which keeps the experience focused and intuitive. I'm proud of how these design choices support a seamless and fast user experience.
+
+
+
+The Future
+
+While the app achieves its core goal, there’s room to expand its capabilities. Planned features include:
+
+Transposing notes to different keys.
+Splitting tracks.
+Quantizing notes.
+Introducing a piano roll interface to visualize MIDI data.
+
+As a longtime musician, working with MIDI has always fascinated me. Building this project has been incredibly rewarding—not only as a developer but also as a creator who now has a tool that I’ll use for years to come.

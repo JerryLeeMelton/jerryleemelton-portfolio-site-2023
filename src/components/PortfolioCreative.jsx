@@ -68,7 +68,7 @@ const Portfolio = () => {
                 <div className="list_wrapper">
                   <TabPanel>
                     <ul className="portfolio_list">
-                      {/* START PORTFOLIO PIECE 1 ==========================================================*/}
+                      {/* START PORTFOLIO PIECE - Polygon AI ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
                       <li>
                         <div className="inner">
@@ -96,9 +96,38 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END PORTFOLIO PIECE 1 ==========================================================*/}
+                      {/* END PORTFOLIO PIECE - Polygon AI ==========================================================*/}
 
-                      {/* START PORTFOLIO PIECE 2 ==========================================================*/}
+                      {/* START PORTFOLIO PIECE - MidiMani ==========================================================*/}
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
+                        <div className="inner">
+                          <div className="entry jlm_portfolio_animation_wrap">
+                            <img
+                              src="assets/img/portfolio/midimani_thumb.webp"
+                              alt="MIDI Mani - MIDI Manipulator Site"
+                              data-tip
+                              data-for="midi-mani-site"
+                              onClick={() => setOpenCaseStudy("MidiMani")}
+                            />
+                            <ReactTooltip
+                              id="midi-mani-site"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>MIDI Mani - MIDI Manipulator Site</h5>
+                                {/* <span>Vimeo</span> */}
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                      {/* END PORTFOLIO PIECE - MidiMani ==========================================================*/}
+
+                      {/* START PORTFOLIO PIECE - Photography Portfolio Site ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
                       <li>
                         <div className="inner">
@@ -125,9 +154,9 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END PORTFOLIO PIECE 2 ==========================================================*/}
+                      {/* END PORTFOLIO PIECE - Photography Portfolio Site ==========================================================*/}
 
-                      {/* START PORTFOLIO PIECE 3 ==========================================================*/}
+                      {/* START PORTFOLIO PIECE - Crypto Spotter ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
                       <li>
                         <div className="inner">
@@ -154,9 +183,9 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END PORTFOLIO PIECE 3 ==========================================================*/}
+                      {/* END PORTFOLIO PIECE - Crypto Spotter ==========================================================*/}
 
-                      {/* START PORTFOLIO PIECE 4 ==========================================================*/}
+                      {/* START PORTFOLIO PIECE - Symon Sez ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
                       <li>
                         <div className="inner">
@@ -183,7 +212,7 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END PORTFOLIO PIECE 4 ==========================================================*/}
+                      {/* END PORTFOLIO PIECE - Symon Sez ==========================================================*/}
                     </ul>
                     {/* END PORTFOLIO LIST */}
                   </TabPanel>
