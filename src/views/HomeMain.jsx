@@ -141,7 +141,7 @@ const HomeMain = () => {
               </TabPanel>
               {/* END PORTFOLIO MENU TAB CONTENT */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div
                   data-aos="fade-right"
                   data-aos-duration="1200"
@@ -149,7 +149,7 @@ const HomeMain = () => {
                 >
                   <ServiceMain />
                 </div>
-              </TabPanel>
+              </TabPanel> */}
               {/* END ABOUT MENU TAB CONTENT */}
 
               {/* <TabPanel>
