@@ -25,7 +25,6 @@ const HomeMain = () => {
   }
 
   const handleTabSelect = (index) => {
-    console.log("handleTabSelect()  :  clicked index == ", index)
     if (index === 2) {
       setOpenCaseStudy("")
     }

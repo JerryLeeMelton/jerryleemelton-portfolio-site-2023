@@ -77,7 +77,7 @@ const Services = () => {
 
       {/* START REFERENCE MODAL */}
       <Modal
-        isOpen={isOpen && activeModal == 0}
+        isOpen={isOpen && activeModal === 0}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -188,7 +188,7 @@ const Services = () => {
 
       {/* START MODAL 1 */}
       <Modal
-        isOpen={isOpen && activeModal == 1}
+        isOpen={isOpen && activeModal === 1}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -292,7 +292,7 @@ const Services = () => {
 
       {/* START MODAL 2 */}
       <Modal
-        isOpen={isOpen && activeModal == 2}
+        isOpen={isOpen && activeModal === 2}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -396,7 +396,7 @@ const Services = () => {
 
       {/* START MODAL 3 */}
       <Modal
-        isOpen={isOpen && activeModal == 3}
+        isOpen={isOpen && activeModal === 3}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -500,7 +500,7 @@ const Services = () => {
 
       {/* START MODAL 4 */}
       <Modal
-        isOpen={isOpen && activeModal == 4}
+        isOpen={isOpen && activeModal === 4}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -604,7 +604,7 @@ const Services = () => {
 
       {/* START MODAL 5 */}
       <Modal
-        isOpen={isOpen && activeModal == 5}
+        isOpen={isOpen && activeModal === 5}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
@@ -708,7 +708,7 @@ const Services = () => {
 
       {/* START MODAL 6 */}
       <Modal
-        isOpen={isOpen && activeModal == 6}
+        isOpen={isOpen && activeModal === 6}
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="mymodal"
