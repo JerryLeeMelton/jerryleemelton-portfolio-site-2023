@@ -157,6 +157,15 @@ export const PolygonAI = (props) => {
               </p>
 
               <div className="jlm_button">
+                <button
+                  className="ib-button"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    window.open("https://rewire.ai/", "_blank")
+                  }}
+                >
+                  Rewire Website
+                </button>
                 <button className="ib-button" onClick={backButtonClick}>
                   Back To Portfolio
                 </button>

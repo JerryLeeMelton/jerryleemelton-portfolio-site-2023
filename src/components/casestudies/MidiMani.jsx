@@ -142,6 +142,30 @@ export const MidiMani = (props) => {
               </p>
 
               <div className="jlm_button">
+                <button
+                  className="ib-button"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    window.open(
+                      "https://midimani.jerryleemelton.com/",
+                      "_blank"
+                    )
+                  }}
+                >
+                  Launch Site
+                </button>
+                <button
+                  className="ib-button"
+                  onClick={(e) => {
+                    e.preventDefault()
+                    window.open(
+                      "https://github.com/JerryLeeMelton/midi-mani",
+                      "_blank"
+                    )
+                  }}
+                >
+                  Github Repo
+                </button>
                 <button className="ib-button" onClick={backButtonClick}>
                   Back To Portfolio
                 </button>

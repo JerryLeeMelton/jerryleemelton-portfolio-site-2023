@@ -72,14 +72,14 @@ const HomeMain = () => {
                     />
                     <span className="menu_content">Portfolio</span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/paper.svg"
                       alt="paper"
                     />
                     <span className="menu_content">Services</span>
-                  </Tab>
+                  </Tab> */}
                   {/* <Tab>
                     <img
                       className="svg"

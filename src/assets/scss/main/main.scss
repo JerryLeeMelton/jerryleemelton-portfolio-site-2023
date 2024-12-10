@@ -609,6 +609,12 @@ h6 {
   height: auto;
   clear: both;
   float: left;
+  display: flex;
+  gap: 2rem;
+
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
 }
 .jlm_button a,
 .ib-button {
