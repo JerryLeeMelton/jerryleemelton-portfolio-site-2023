@@ -127,6 +127,35 @@ const Portfolio = () => {
                       </li>
                       {/* END PORTFOLIO PIECE - MidiMani ==========================================================*/}
 
+                      {/* START PORTFOLIO PIECE - Nomenator ==========================================================*/}
+                      {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
+                      <li>
+                        <div className="inner">
+                          <div className="entry jlm_portfolio_animation_wrap">
+                            <img
+                              src="assets/img/portfolio/2.jpg"
+                              alt="Nomenator - File Renamer"
+                              data-tip
+                              data-for="nomenator-site"
+                              onClick={() => setOpenCaseStudy("Nomenator")}
+                            />
+                            <ReactTooltip
+                              id="nomenator-site"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Nomenator - File Renamer</h5>
+                                {/* <span>Vimeo</span> */}
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
+                      {/* END PORTFOLIO PIECE - Nomenator ==========================================================*/}
+
                       {/* START PORTFOLIO PIECE - Photography Portfolio Site ==========================================================*/}
                       {/* <li data-aos="fade-right" data-aos-duration="1200"> */}
                       <li>

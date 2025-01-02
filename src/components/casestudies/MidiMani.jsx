@@ -120,7 +120,7 @@ export const MidiMani = (props) => {
                 MIDI Mani interface after uploading a MIDI file
               </div>
 
-              <h4 className="marg-bottom-one-and-half">The Looking Forward</h4>
+              <h4 className="marg-bottom-one-and-half">Looking Forward</h4>
               <p className="marg-bottom-one-and-half">
                 While the app achieves its core goal, there’s room to expand its
                 capabilities. Planned features include:

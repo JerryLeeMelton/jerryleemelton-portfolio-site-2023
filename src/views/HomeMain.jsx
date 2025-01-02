@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
-import { Link } from "react-router-dom"
 import Home from "../components/Home"
 import About from "../components/about/AboutMain"
 import Portfolio from "../components/PortfolioCreative"
-import News from "../components/News"
-import ServiceMain from "../components/service/ServiceMain"
 import Contact from "../components/Contact"
 import CopyRight from "../components/CopyRight"
 import PageTitle from "../components/PageTitle"
@@ -13,16 +10,12 @@ import { useCaseStudy } from "../context/CaseStudyContext"
 
 const HomeMain = () => {
   const [isDarkMode, setIsDarkMode] = useState(false)
-  const { openCaseStudy, setOpenCaseStudy } = useCaseStudy()
+  const setOpenCaseStudy = useCaseStudy().setOpenCaseStudy
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode)
     localStorage.setItem("isDarkModeEnabled", isDarkMode)
   }, [isDarkMode])
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-  }
 
   const handleTabSelect = (index) => {
     if (index === 2) {
