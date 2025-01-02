@@ -133,7 +133,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry jlm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
+                              src="assets/img/portfolio/nomenator_thumb.webp"
                               alt="Nomenator - File Renamer"
                               data-tip
                               data-for="nomenator-site"
