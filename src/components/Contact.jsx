@@ -5,10 +5,24 @@ import "react-toastify/dist/ReactToastify.css"
 import Map from "./Map"
 
 const Contact = () => {
-  const form = useRef()
+  const form = useRef(null)
 
   const sendEmail = (e) => {
     e.preventDefault()
+
+    const formData = new FormData(form.current)
+
+    // Additional validation check
+    const userName = formData.get("user_name")
+    const userEmail = formData.get("user_email")
+    const subject = formData.get("subject")
+    const message = formData.get("message")
+
+    if (!userName || !userEmail || !subject || !message) {
+      toast.error("Please fill in all fields.")
+      return
+    }
+
     emailjs
       .sendForm(
         "service_6oae93r",
@@ -27,7 +41,7 @@ const Contact = () => {
             draggable: true,
             progress: undefined,
           })
-          document.getElementById("myForm").reset()
+          form.current.reset()
         },
         (error) => {
           toast.error("Ops Message Not Sent!", {
