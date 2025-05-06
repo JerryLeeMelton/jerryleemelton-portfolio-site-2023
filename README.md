@@ -1,6 +1,6 @@
 # Jerry Lee Melton – Developer Portfolio (2023)
 
-This is the source code for my personal developer portfolio website, updated for 2023. Built with React and SCSS, it showcases my projects, skills, and experience.
+This is the source code for my personal developer portfolio website, updated to use more up to date technologies 2023. Built with React and SCSS, it showcases my projects, skills, and experience.
 
 ## 🌐 Live Site
 
