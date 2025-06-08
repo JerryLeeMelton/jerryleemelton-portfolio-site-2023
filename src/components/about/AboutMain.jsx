@@ -31,12 +31,12 @@ const AboutMain = () => {
           {/* End personal info */}
 
           <div className="jlm_button" data-position="left">
-            <a href="assets/cv/JerryLeeMelton_CV.pdf" download>
+            <a
+              href="/assets/cv/JerryLeeMelton_CV.pdf"
+              download="JerryLeeMelton_CV.pdf"
+            >
               <span>Download CV</span>
             </a>
-            {/* <a href="assets/img/cv.pdf" download>
-              <span>Contact Me</span>
-            </a> */}
           </div>
         </div>
       </div>
